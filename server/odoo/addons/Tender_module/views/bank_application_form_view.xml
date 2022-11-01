@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data>
+		<record id="bank_guarentee_tree_view" model="ir.ui.view">
+			<field name="name">bank.guarentee.tree.view</field>
+			<field name="model">bank.guarantee</field>
+			<field name="arch" type="xml">
+				<tree string="Bank Guarantee">
+					<field name="tender_id"/>
+					<field name="bid_amount_value"/>
+					<field name="bond_validity_to"/>
+					<field name="contract_no"/>
+				</tree>
+			</field>
+		</record>
+
+
+		<record id="bank_application_form" model="ir.ui.view">
+			<field name="name">Bank.Guarantee</field>
+			<field name="model">bank.guarantee</field>
+			<field name="arch" type="xml">
+				<form>
+					<header>
+						<button name="%(action_bank_application_form_report)d" string="Print" type="action" class="btn btn-success btn-sm" />
+						<button name="reqst_bank_guarantee" string="Req Bank Guarantee" type="object" class="btn btn-success" groups="Tender_module.group_manager"/>
+					</header>
+					<sheet>
+						<div class="container" style="margin-top:20px">
+							<div class="row">
+								<div class="col-lg-8">
+									<label for="bank_name" string="To,"/>
+									<h3><field name="bank_name"/></h3>
+									<h4><field name="branch"/> Branch</h4>
+								</div>
+								<div class="col-lg-4">
+									<label for="date"/>
+									<field name="date"/>
+								</div>
+							</div>
+						</div>
+						<h2 style="text-indent:25%;">Application For Bank Guarantee</h2>
+						<div>
+							<p>
+								Please issue a Bank Guarentee on behalf of the Apllicant given the under-mentioned informations:
+							</p>
+						</div>
+						<group>
+							<field name="parent_id"/>
+							<label for="add_street" string="Applicant Contact"/>
+							<h6>
+								<field name="add_street" class="oe_inline"/>,
+								<field name="add_street2" class="oe_inline"/>
+								<field name="add_city" class="oe_inline"/> /
+								<field name="add_phone" class="oe_inline"/>
+							</h6>
+							<field name="tender_id"/>
+							<label for="tend_street" string="Beneficiary Contact"/>
+							<h6>
+								<field name="tender_street" class="oe_inline"/>,
+								<field name="tender_street2" class="oe_inline"/>,
+								<field name="tender_city" class="oe_inline"/>
+							</h6>
+							<label for="nature1" string="Nature of Guarantee Required"/>
+							<div class="container">
+								<div class="row">
+									<div class="col-lg-6">
+										<field name="nature1"/>
+										<label for="nature1"/>
+									</div>
+									<div class="col-lg-6">
+										<field name="nature3"/>
+										<label for="nature3"/>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-lg-6">
+										<field name="nature2"/>
+										<label for="nature2"/>
+									</div>
+									<div class="col-lg-6">
+										<field name="nature4"/>
+										<label for="nature4"/>
+									</div>
+								</div>
+							</div>
+							<label for="bond_selection" string="Bid Security Amount / (%)" 
+								attrs="{'invisible': [('nature2','=',True)]}"/>
+							<div attrs="{'invisible': [('nature2','=',True)]}">
+								<field name="bond_selection" invisible="1"/>
+								<div attrs="{'invisible':[('bond_selection','=','percentage')]}">
+									<field name="amount"/>
+									<div>
+										<p><field name="amt_inwords" placeholder="Amount in Words"/></p>
+									</div>
+								</div>
+								<field name="percentage" attrs="{'invisible':[('bond_selection','=','amount')]}"/>
+							</div>
+							<label for="Performance_selection" string="Performance Security Amount / (%)" 
+								attrs="{'invisible': [('nature1','=',True)]}"/>
+							<div attrs="{'invisible': [('nature1','=',True)]}">
+								<field name="Performance_selection" invisible="1"/>
+								<div attrs="{'invisible':[('Performance_selection','=','perform_bond_percent')]}">
+									<field name="perform_bond_amount"/>
+									<div>
+										<p><field name="amount_inwords" placeholder="Amount in Words"/></p>
+									</div>
+								</div>
+								<field name="perform_bond_percent" attrs="{'invisible':[('Performance_selection','=','perform_bond_amount')]}"/>
+							</div>
+							<label for="bond_validity" string="Validity of Bond"/>
+							<h6>
+								<div>
+									<field name="bond_validity_from" class="oe_inline" placeholder="from"/> to
+									<field name="bond_validity_to" class="oe_inline" placeholder="to"/>
+									<div>
+										<p>(Specify the exact date till which the Guarantee to be valid)</p>
+									</div>
+								</div>
+							</h6>
+							<field name="purpose"/>
+							<field name="contract_no"/>
+							<label for="contract_paper1" string="Contract Papers"/>
+							<div class="container">
+								<div class="row">
+									<div class="col-lg-6">
+										<field name="contract_paper1"/>
+										<label for="contract_paper1"/>
+									</div>
+									<div class="col-lg-6">
+										<field name="contract_paper2"/>
+										<label for="contract_paper2"/>
+									</div>
+								</div>
+							</div>
+							<label for="counter_guarentee1" string="Counter Guarantee"/>
+							<div class="container">
+								<div class="row">
+									<div class="col-lg-6">
+										<field name="counter_guarentee1"/>
+										<label for="counter_guarentee1"/>
+									</div>
+									<div class="col-lg-6">
+										<field name="counter_guarentee2"/>
+										<label for="counter_guarentee2"/>
+									</div>
+								</div>
+							</div>
+						</group>
+						<div>
+							<h6>
+								I/We authorised you to debit all Charges and Commission under this guarantee from our Account No.<field name="account_no" class="oe_inline"/>
+							</h6>
+						</div>
+						<div class="col-4 pull-right">
+							<h6>
+								<field name="stamp"  widget="image" class="img-fluid oe_inline"/>
+								<field name="auth_signature" widget="image" class="img-fluid"/>
+								<div>
+									<p style="text-align:center;">
+										Authorised Signature(s)<br/>
+									   	     STAMP/SEAL
+									</p>
+								</div>
+							</h6>
+						</div>
+					</sheet>
+				</form>
+			</field>
+		</record>
+
+		<record id="action_bank_guarentee_form" model="ir.actions.act_window">
+			<field name="name">Bank Application</field>
+			<field name="type">ir.actions.act_window</field>
+			<field name="res_model">bank.guarantee</field>
+			<field name="view_mode">tree,form</field>
+		</record>
+
+		<menuitem
+			id="bank_guarentee_menu"
+			name="Bank Application"
+			parent="company_menu_list"
+			action="action_bank_guarentee_form"
+			sequence="28"
+		/>
+	</data>
+</odoo>

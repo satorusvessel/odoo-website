@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data>
+		<!-- TREE VIEW -->
+		<record id="companylist_tree_view" model="ir.ui.view">
+			<field name="name">List.of.Companies</field>
+			<field name="model">company.list</field>
+			<field name="arch" type="xml">
+				<tree>
+					<field name="comp_name"/>
+					<field name="companies_street"/>
+					<field name="companies_city"/>
+					<field name="email"/>
+					<field name="contact_no"/>
+				</tree>
+			</field>
+		</record>
+		<!-- TREE VIEW -->
+
+
+		<!-- FORM VIEW -->
+		<record id="companylist_form_view" model="ir.ui.view">
+			<field name="name">Companies.Form</field>
+			<field name="model">company.list</field>
+			<field name="arch" type="xml">
+				<form>
+					<sheet>
+						<group name="group_top">
+							<group name="group_left">
+							    <field name="comp_name"/>
+							    <field name="companies_street"/>
+							    <field name="companies_street2"/>
+							    <field name="companies_city"/>
+							    <field name="contact_no"/>
+							    <field name="email" placeholder="example.123@gmail.com"/>
+							</group>
+						</group>
+					</sheet>
+				</form>
+			</field>
+		</record>
+		<!-- FORM VIEW -->
+
+
+		<!-- ACTION FOR MENU P0INT -->
+		<record id="company_actions_record_form" model="ir.actions.act_window">
+			<field name="name">Companies List</field>
+			<field name="type">ir.actions.act_window</field>
+			<field name="res_model">company.list</field>
+			<field name="view_mode">tree,form</field>
+		</record>
+		<!-- ACTION FOR MENU P0INT -->
+
+
+		<!-- MENU POINT -->
+		<menuitem id="company_menu_list" parent="tender_menu_record" name="Companies" sequence="20"/>
+
+		<!-- ACTION FOR MENU POINT -->
+		<menuitem action="company_actions_record_form" id="company_action_recs" parent="company_menu_list" sequence="20"/>
+	</data>
+</odoo>

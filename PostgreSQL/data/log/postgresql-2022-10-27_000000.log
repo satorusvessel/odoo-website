@@ -1,0 +1,10 @@
+2022-10-27 15:49:46.578 EAT [12124] ERROR:  could not serialize access due to concurrent update
+2022-10-27 15:49:46.578 EAT [12124] STATEMENT:  UPDATE "website_page" SET "header_overlay"=false,"write_date"='2022-10-27 12:49:46.442110',"write_uid"=2 WHERE id IN (4)
+2022-10-27 16:32:27.918 EAT [16924] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-27 16:32:27.921 EAT [15556] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-27 16:43:19.774 EAT [5916] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-27 16:43:19.775 EAT [8456] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	

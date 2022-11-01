@@ -1,0 +1,53 @@
+2022-10-17 08:52:26.657 EAT [13140] LOG:  database system was shut down at 2022-10-17 08:51:57 EAT
+2022-10-17 08:52:26.782 EAT [3704] LOG:  database system is ready to accept connections
+2022-10-17 09:39:26.707 EAT [8736] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-17 09:39:26.711 EAT [1164] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-17 09:39:26.715 EAT [4496] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-17 09:39:26.718 EAT [10848] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-17 09:39:26.723 EAT [7576] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-17 09:39:26.730 EAT [13428] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-17 10:46:30.736 EAT [7468] ERROR:  could not serialize access due to concurrent delete
+2022-10-17 10:46:30.736 EAT [7468] STATEMENT:  DELETE FROM ir_attachment WHERE id IN (92)
+2022-10-17 11:08:58.129 EAT [11604] FATAL:  database "MASSTECH_restore" does not exist
+2022-10-17 11:09:53.548 EAT [9564] ERROR:  relation "ir_module_module" does not exist at character 53
+2022-10-17 11:09:53.548 EAT [9564] STATEMENT:  
+	            SELECT latest_version
+	            FROM ir_module_module
+	             WHERE name='base'
+	        
+2022-10-17 11:10:29.438 EAT [9564] ERROR:  relation "ir_module_module" does not exist at character 53
+2022-10-17 11:10:29.438 EAT [9564] STATEMENT:  
+	            SELECT latest_version
+	            FROM ir_module_module
+	             WHERE name='base'
+	        
+2022-10-17 11:10:54.591 EAT [9564] ERROR:  relation "ir_module_module" does not exist at character 53
+2022-10-17 11:10:54.591 EAT [9564] STATEMENT:  
+	            SELECT latest_version
+	            FROM ir_module_module
+	             WHERE name='base'
+	        
+2022-10-17 17:45:41.994 EAT [4496] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-17 17:45:41.994 EAT [11480] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-17 17:45:41.994 EAT [13908] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-17 17:45:41.995 EAT [6036] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-17 17:45:41.995 EAT [7468] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-17 17:45:41.996 EAT [12656] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-17 17:45:41.996 EAT [16252] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-17 17:45:41.998 EAT [13532] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-17 17:45:41.994 EAT [5240] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	

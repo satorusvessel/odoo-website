@@ -1,0 +1,86 @@
+<?xml version = "1.0"?>
+<odoo>
+    <report id = "action_bank_indemnity_form_report"
+		string = "General Indemnity Form"
+		model = "bank.guarantee" report_type = "qweb-pdf"
+		file = "Tender_module.report_bank_indemnity_form"
+		name = "Tender_module.report_bank_indemnity_form"
+	/>
+
+	<template id = "report_bank_indemnity_form">
+		<t t-call = "web.html_container">
+			<!--<t t-call = "web.external_layout"> -->
+				<div clss = "oe_structure"/>
+				<div class = "page" style = "font-size: 12pt;">
+					<t t-foreach = "docs" t-as = "o">
+						<h3 style="text-indent:35%;">GENERAL INDEMNITY FORM</h3>
+						<p style = "text-align:right;">				
+							<t t-if="o.date is False">
+       							No date supplied: <t t-esc="time.strftime('%Y-%m-%d')"/>
+   							</t>
+           					<t t-if="o.date is not False">
+       							Date: <span t-field="o.date"/>
+       						</t>
+						</p>		
+						<p>The Manager<br/><span t-field = "o.bank_name"/><br/>
+							<span t-field = "o.branch"/> Branch
+						</p>				
+						
+						<br/><br/>
+						Dear Sirs,<br/><br/>
+						<div style = "text-align:justify;">
+							<div style = "text-indent: 50px;">
+								In consideration of your giving either alone or jointly an Indemnity/Guarantee to <span t-field = "o.tender_id"/>
+											 <t t-if = "o.tender_street">
+											 	<span t-field = "o.tender_street"/>,
+											</t>
+											<t t-if = "o.tender_street2">
+											 	<span t-field = "o.tender_street2"/>,
+											</t>
+											 <span t-field = "o.tender_city"/> for
+											<t t-if = "o.nature1">
+												Bid Bond of 
+												<t t-if = "o.amount">
+											 		Rs.<span t-field = "o.amount"/>
+													(In words: <span t-field = "o.amt_inwords"/>)
+												</t>
+												<t t-if = "o.percentage">
+													<span t-field = "o.percentage"/>% of total Bid Amount
+												</t>
+											</t>
+											<t t-if = "o.nature2">
+												Performance Bond of 
+												<t t-if = "o.perform_bond_amount">
+													Rs.<span t-field = "o.perform_bond_amount"/>
+													(In Words: <span t-field = "o.amount_inwords"/>)
+												</t>
+												<t t-if = "o.perform_bond_percent">
+													<span t-field = "o.perform_bond_percent"/>% of total Bid Amount
+												</t>
+											</t>
+								in the form endorse hereon/ annexed hereto (and signed by me/us for identification), I/We jointly and severally hereby agree to indemnify you against all claims which may be made upon you in consequence thereof and pay to you all payments, losses, costs and expenses made, suffered or incurred by you in consequence thereof or arising thereat and I/We hereby irrevocably authorise you to debit to my/our account all such payments, losses, costs and expenses.<br/>
+							</div>
+							<div style = "text-indent: 50px;">
+								I/We irrevocably authorize you to make any payments and comply with any demands which may be claimed from or made upon you under the said Indemnity/Guarantee without any reference to or further authority from me/us and agree that any payments which you shall make accordingly or purporting to be in accordance with the Indemnity Guarantee shall be binding upon me/us and shall be accepted by me/us as conclusive evidence that you were liable to make such payments or comply with such demand and further that you may at any time determine or give notice to determine your Indemnity/Guarantee.<br/>
+							</div>
+							<div style = "text-indent: 50px;">
+								I/we also agree to pay your Bank all charges and Reimbursement of actual out of pocket expenses incurred in this regard<br/>
+							</div>
+							and<br/>
+							<div style = "text-indent: 50px;">
+								I/We further agree to pay you on demand any further charges and interest which may arise in the event of any claim being made upon you under Indemnity/Guarantee.<br/>
+							</div>
+							Signed on <span t-field = "o.date"/> day of <span t-field = "o.date"/> at the Bank's Office, situated at <span t-field = "o.branch"/> Nepal.<br/><br/><br/><br/>
+							<img t-att-src = "'data:image/png;base64,%s' % to_text(o.auth_signature)"/>
+							<img t-att-src = "'data:image/png;base64,%s' % to_text(o.stamp)"/>
+							<div>
+								Authorised Signature(s) and Company Seal:
+							</div>
+						</div>
+					</t>
+				</div>
+				<div clss = "oe_structure"/>
+			
+		</t>
+	</template>
+</odoo>

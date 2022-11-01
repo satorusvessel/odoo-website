@@ -1,0 +1,809 @@
+2022-10-17 05:39:21,203 10420 INFO ? odoo: Odoo version 15.0-20221015 
+2022-10-17 05:39:21,204 10420 INFO ? odoo: Using configuration file at C:\odoo 15(2)\server\odoo.conf 
+2022-10-17 05:39:21,204 10420 INFO ? odoo: addons paths: ['C:\\odoo 15(2)\\server\\odoo\\addons', 'c:\\users\\mass tech trading\\appdata\\local\\openerp s.a\\odoo\\addons\\15.0', 'c:\\odoo 15(2)\\server\\odoo\\addons'] 
+2022-10-17 05:39:21,204 10420 INFO ? odoo: database: openpg@localhost:5432 
+2022-10-17 05:39:23,917 10420 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\odoo 15(2)\thirdparty\wkhtmltopdf.exe 
+2022-10-17 05:39:27,925 10420 INFO ? odoo.service.server: Initiating shutdown 
+2022-10-17 05:39:27,925 10420 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2022-10-17 05:39:31,508 5508 INFO ? odoo: Odoo version 15.0-20221015 
+2022-10-17 05:39:31,509 5508 INFO ? odoo: Using configuration file at C:\odoo 15(2)\server\odoo.conf 
+2022-10-17 05:39:31,509 5508 INFO ? odoo: addons paths: ['C:\\odoo 15(2)\\server\\odoo\\addons', 'c:\\users\\mass tech trading\\appdata\\local\\openerp s.a\\odoo\\addons\\15.0', 'c:\\odoo 15(2)\\server\\odoo\\addons'] 
+2022-10-17 05:39:31,509 5508 INFO ? odoo: database: openpg@localhost:5432 
+2022-10-17 05:39:31,850 5508 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\odoo 15(2)\thirdparty\wkhtmltopdf.exe 
+2022-10-17 05:39:33,175 5508 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-UNORBPA:8069 
+2022-10-17 05:39:36,402 5508 INFO ? odoo.sql_db: Connection to the database failed 
+2022-10-17 05:39:40,493 5508 INFO ? odoo.sql_db: Connection to the database failed 
+2022-10-17 05:53:10,423 5508 INFO ? odoo.http: HTTP Configuring static files 
+2022-10-17 05:53:11,291 5508 INFO ? odoo.http: Generating nondb routing 
+2022-10-17 05:53:11,364 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:53:11] "GET / HTTP/1.1" 303 - 1 0.178 0.742
+2022-10-17 05:53:11,527 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:53:11] "GET /web HTTP/1.1" 303 - 2 0.009 0.086
+2022-10-17 05:53:12,750 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:53:12] "GET /web/database/selector HTTP/1.1" 200 - 2 0.010 0.891
+2022-10-17 05:54:11,527 5508 INFO None odoo.service.db: Create database `MASSTECH`. 
+2022-10-17 05:54:27,687 5508 INFO MASSTECH odoo.modules.loading: loading 1 modules... 
+2022-10-17 05:54:27,687 5508 INFO MASSTECH odoo.modules.loading: Loading module base (1/1) 
+2022-10-17 05:54:27,735 5508 INFO MASSTECH odoo.modules.registry: module base: creating or updating database tables 
+2022-10-17 05:54:39,143 5508 INFO MASSTECH odoo.models: Storing computed values of ir.module.module.menus_by_module 
+2022-10-17 05:54:39,143 5508 INFO MASSTECH odoo.models: Storing computed values of ir.module.module.reports_by_module 
+2022-10-17 05:54:39,144 5508 INFO MASSTECH odoo.models: Storing computed values of ir.module.module.views_by_module 
+2022-10-17 05:54:39,148 5508 INFO MASSTECH odoo.models: Storing computed values of res.partner.display_name 
+2022-10-17 05:54:39,149 5508 INFO MASSTECH odoo.models: Storing computed values of res.partner.partner_share 
+2022-10-17 05:54:39,149 5508 INFO MASSTECH odoo.models: Storing computed values of res.partner.commercial_partner_id 
+2022-10-17 05:54:39,149 5508 INFO MASSTECH odoo.models: Storing computed values of res.partner.commercial_company_name 
+2022-10-17 05:54:39,150 5508 INFO MASSTECH odoo.models: Storing computed values of res.currency.decimal_places 
+2022-10-17 05:54:39,156 5508 INFO MASSTECH odoo.models: Storing computed values of res.company.logo_web 
+2022-10-17 05:54:39,157 5508 INFO MASSTECH odoo.models: Storing computed values of res.company.company_registry 
+2022-10-17 05:54:39,162 5508 INFO MASSTECH odoo.models: Storing computed values of res.users.share 
+2022-10-17 05:54:46,251 5508 INFO MASSTECH odoo.modules.loading: loading base/data/res_bank.xml 
+2022-10-17 05:54:46,337 5508 INFO MASSTECH odoo.modules.loading: loading base/data/res.lang.csv 
+2022-10-17 05:54:46,534 5508 INFO MASSTECH odoo.modules.loading: loading base/data/res_lang_data.xml 
+2022-10-17 05:54:46,640 5508 INFO MASSTECH odoo.modules.loading: loading base/data/res_partner_data.xml 
+2022-10-17 05:54:46,755 5508 INFO MASSTECH odoo.modules.loading: loading base/data/res_company_data.xml 
+2022-10-17 05:54:46,794 5508 INFO MASSTECH odoo.modules.loading: loading base/data/res_users_data.xml 
+2022-10-17 05:54:46,936 5508 INFO MASSTECH odoo.modules.loading: loading base/data/report_paperformat_data.xml 
+2022-10-17 05:54:46,967 5508 INFO MASSTECH odoo.modules.loading: loading base/data/res_currency_data.xml 
+2022-10-17 05:54:47,644 5508 INFO MASSTECH odoo.modules.loading: loading base/data/res_country_data.xml 
+2022-10-17 05:54:48,262 5508 INFO MASSTECH odoo.modules.loading: loading base/data/ir_demo_data.xml 
+2022-10-17 05:54:48,313 5508 INFO MASSTECH odoo.modules.loading: loading base/data/ir_config_parameter_data.xml 
+2022-10-17 05:54:48,325 5508 INFO MASSTECH odoo.modules.loading: loading base/security/base_groups.xml 
+2022-10-17 05:54:48,498 5508 INFO MASSTECH odoo.modules.loading: loading base/security/base_security.xml 
+2022-10-17 05:54:48,839 5508 INFO MASSTECH odoo.modules.loading: loading base/views/base_menus.xml 
+2022-10-17 05:54:49,089 5508 INFO MASSTECH odoo.modules.loading: loading base/views/decimal_precision_views.xml 
+2022-10-17 05:54:49,168 5508 INFO MASSTECH odoo.modules.loading: loading base/views/res_config_views.xml 
+2022-10-17 05:54:49,285 5508 INFO MASSTECH odoo.modules.loading: loading base/data/res.country.state.csv 
+2022-10-17 05:54:50,851 5508 INFO MASSTECH odoo.modules.loading: loading base/views/ir_actions_views.xml 
+2022-10-17 05:54:51,070 5508 INFO MASSTECH odoo.modules.loading: loading base/views/ir_asset_views.xml 
+2022-10-17 05:54:51,100 5508 INFO MASSTECH odoo.modules.loading: loading base/views/ir_config_parameter_views.xml 
+2022-10-17 05:54:51,127 5508 INFO MASSTECH odoo.modules.loading: loading base/views/ir_cron_views.xml 
+2022-10-17 05:54:51,194 5508 INFO MASSTECH odoo.modules.loading: loading base/views/ir_cron_trigger_views.xml 
+2022-10-17 05:54:51,222 5508 INFO MASSTECH odoo.modules.loading: loading base/views/ir_filters_views.xml 
+2022-10-17 05:54:51,253 5508 INFO MASSTECH odoo.modules.loading: loading base/views/ir_mail_server_views.xml 
+2022-10-17 05:54:51,282 5508 INFO MASSTECH odoo.modules.loading: loading base/views/ir_model_views.xml 
+2022-10-17 05:54:51,502 5508 INFO MASSTECH odoo.modules.loading: loading base/views/ir_attachment_views.xml 
+2022-10-17 05:54:51,536 5508 INFO MASSTECH odoo.modules.loading: loading base/views/ir_rule_views.xml 
+2022-10-17 05:54:51,588 5508 INFO MASSTECH odoo.modules.loading: loading base/views/ir_sequence_views.xml 
+2022-10-17 05:54:51,618 5508 INFO MASSTECH odoo.modules.loading: loading base/views/ir_translation_views.xml 
+2022-10-17 05:54:51,664 5508 INFO MASSTECH odoo.modules.loading: loading base/views/ir_ui_menu_views.xml 
+2022-10-17 05:54:51,693 5508 INFO MASSTECH odoo.modules.loading: loading base/views/ir_ui_view_views.xml 
+2022-10-17 05:54:51,769 5508 INFO MASSTECH odoo.modules.loading: loading base/views/ir_default_views.xml 
+2022-10-17 05:54:51,801 5508 INFO MASSTECH odoo.modules.loading: loading base/data/ir_cron_data.xml 
+2022-10-17 05:54:51,811 5508 INFO MASSTECH odoo.modules.loading: loading base/report/ir_model_report.xml 
+2022-10-17 05:54:51,820 5508 INFO MASSTECH odoo.modules.loading: loading base/report/ir_model_templates.xml 
+2022-10-17 05:54:51,853 5508 INFO MASSTECH odoo.modules.loading: loading base/views/ir_logging_views.xml 
+2022-10-17 05:54:51,881 5508 INFO MASSTECH odoo.modules.loading: loading base/views/ir_qweb_widget_templates.xml 
+2022-10-17 05:54:51,912 5508 INFO MASSTECH odoo.modules.loading: loading base/views/ir_module_views.xml 
+2022-10-17 05:54:52,016 5508 INFO MASSTECH odoo.modules.loading: loading base/data/ir_module_category_data.xml 
+2022-10-17 05:54:52,145 5508 INFO MASSTECH odoo.modules.loading: loading base/data/ir_module_module.xml 
+2022-10-17 05:54:52,797 5508 INFO MASSTECH odoo.modules.loading: loading base/report/ir_module_reports.xml 
+2022-10-17 05:54:52,854 5508 INFO MASSTECH odoo.modules.loading: loading base/report/ir_module_report_templates.xml 
+2022-10-17 05:54:52,862 5508 INFO MASSTECH odoo.modules.loading: loading base/wizard/base_module_update_views.xml 
+2022-10-17 05:54:52,896 5508 INFO MASSTECH odoo.modules.loading: loading base/wizard/base_language_install_views.xml 
+2022-10-17 05:54:52,909 5508 INFO MASSTECH odoo.modules.loading: loading base/wizard/base_import_language_views.xml 
+2022-10-17 05:54:52,936 5508 INFO MASSTECH odoo.modules.loading: loading base/wizard/base_module_upgrade_views.xml 
+2022-10-17 05:54:52,977 5508 INFO MASSTECH odoo.modules.loading: loading base/wizard/base_module_uninstall_views.xml 
+2022-10-17 05:54:52,990 5508 INFO MASSTECH odoo.modules.loading: loading base/wizard/base_export_language_views.xml 
+2022-10-17 05:54:53,010 5508 INFO MASSTECH odoo.modules.loading: loading base/wizard/base_update_translations_views.xml 
+2022-10-17 05:54:53,029 5508 INFO MASSTECH odoo.modules.loading: loading base/wizard/base_partner_merge_views.xml 
+2022-10-17 05:54:53,049 5508 INFO MASSTECH odoo.modules.loading: loading base/data/ir_actions_data.xml 
+2022-10-17 05:54:53,057 5508 INFO MASSTECH odoo.modules.loading: loading base/data/ir_demo_failure_data.xml 
+2022-10-17 05:54:53,073 5508 INFO MASSTECH odoo.modules.loading: loading base/views/ir_profile_views.xml 
+2022-10-17 05:54:53,119 5508 INFO MASSTECH odoo.modules.loading: loading base/views/res_company_views.xml 
+2022-10-17 05:54:53,258 5508 INFO MASSTECH odoo.modules.loading: loading base/views/res_lang_views.xml 
+2022-10-17 05:54:53,292 5508 INFO MASSTECH odoo.modules.loading: loading base/views/res_partner_views.xml 
+2022-10-17 05:54:53,456 5508 INFO MASSTECH odoo.modules.loading: loading base/views/res_bank_views.xml 
+2022-10-17 05:54:53,503 5508 INFO MASSTECH odoo.modules.loading: loading base/views/res_country_views.xml 
+2022-10-17 05:54:53,551 5508 INFO MASSTECH odoo.modules.loading: loading base/views/res_currency_views.xml 
+2022-10-17 05:54:53,597 5508 INFO MASSTECH odoo.modules.loading: loading base/views/res_users_views.xml 
+2022-10-17 05:54:53,737 5508 INFO MASSTECH odoo.modules.loading: loading base/views/ir_property_views.xml 
+2022-10-17 05:54:53,765 5508 INFO MASSTECH odoo.modules.loading: loading base/views/res_config_settings_views.xml 
+2022-10-17 05:54:53,777 5508 INFO MASSTECH odoo.modules.loading: loading base/views/report_paperformat_views.xml 
+2022-10-17 05:54:53,811 5508 INFO MASSTECH odoo.modules.loading: loading base/views/onboarding_views.xml 
+2022-10-17 05:54:53,847 5508 INFO MASSTECH odoo.modules.loading: loading base/security/ir.model.access.csv 
+2022-10-17 05:54:54,220 5508 INFO MASSTECH odoo.modules.loading: Module base loaded in 26.53s, 9527 queries 
+2022-10-17 05:54:54,220 5508 INFO MASSTECH odoo.modules.loading: 1 modules loaded in 26.53s, 9527 queries (+0 extra) 
+2022-10-17 05:54:54,295 5508 INFO MASSTECH odoo.modules.loading: updating modules list 
+2022-10-17 05:54:54,295 5508 INFO MASSTECH odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2022-10-17 05:54:55,621 5508 INFO MASSTECH odoo.modules.loading: loading 7 modules... 
+2022-10-17 05:54:55,621 5508 INFO MASSTECH odoo.modules.loading: Loading module web (2/7) 
+2022-10-17 05:54:55,686 5508 INFO MASSTECH odoo.modules.registry: module web: creating or updating database tables 
+2022-10-17 05:54:56,461 5508 INFO MASSTECH odoo.modules.loading: loading web/security/ir.model.access.csv 
+2022-10-17 05:54:56,479 5508 INFO MASSTECH odoo.modules.loading: loading web/views/webclient_templates.xml 
+2022-10-17 05:54:56,552 5508 INFO MASSTECH odoo.modules.loading: loading web/views/report_templates.xml 
+2022-10-17 05:54:56,654 5508 INFO MASSTECH odoo.modules.loading: loading web/views/base_document_layout_views.xml 
+2022-10-17 05:54:56,671 5508 INFO MASSTECH odoo.modules.loading: loading web/views/speedscope_template.xml 
+2022-10-17 05:54:56,678 5508 INFO MASSTECH odoo.modules.loading: loading web/views/lazy_assets.xml 
+2022-10-17 05:54:56,688 5508 INFO MASSTECH odoo.modules.loading: loading web/data/report_layout.xml 
+2022-10-17 05:54:56,767 5508 INFO MASSTECH odoo.modules.loading: Module web loaded in 1.15s, 886 queries 
+2022-10-17 05:54:56,767 5508 INFO MASSTECH odoo.modules.loading: Loading module auth_totp (3/7) 
+2022-10-17 05:54:56,965 5508 INFO MASSTECH odoo.modules.registry: module auth_totp: creating or updating database tables 
+2022-10-17 05:54:57,235 5508 INFO MASSTECH odoo.modules.loading: loading auth_totp/security/security.xml 
+2022-10-17 05:54:57,278 5508 INFO MASSTECH odoo.modules.loading: loading auth_totp/security/ir.model.access.csv 
+2022-10-17 05:54:57,293 5508 INFO MASSTECH odoo.modules.loading: loading auth_totp/data/ir_action_data.xml 
+2022-10-17 05:54:57,310 5508 INFO MASSTECH odoo.modules.loading: loading auth_totp/views/res_users_views.xml 
+2022-10-17 05:54:57,344 5508 INFO MASSTECH odoo.modules.loading: loading auth_totp/views/templates.xml 
+2022-10-17 05:54:57,352 5508 INFO MASSTECH odoo.modules.loading: loading auth_totp/wizard/auth_totp_wizard_views.xml 
+2022-10-17 05:54:57,383 5508 INFO MASSTECH odoo.modules.loading: Module auth_totp loaded in 0.62s, 192 queries 
+2022-10-17 05:54:57,383 5508 INFO MASSTECH odoo.modules.loading: Loading module base_import (4/7) 
+2022-10-17 05:54:57,518 5508 INFO MASSTECH odoo.modules.registry: module base_import: creating or updating database tables 
+2022-10-17 05:55:00,379 5508 INFO MASSTECH odoo.modules.loading: loading base_import/security/ir.model.access.csv 
+2022-10-17 05:55:00,447 5508 INFO MASSTECH odoo.modules.loading: Module base_import loaded in 3.06s, 919 queries 
+2022-10-17 05:55:00,448 5508 INFO MASSTECH odoo.modules.loading: Loading module web_editor (5/7) 
+2022-10-17 05:55:00,894 5508 INFO MASSTECH odoo.modules.registry: module web_editor: creating or updating database tables 
+2022-10-17 05:55:01,404 5508 INFO MASSTECH odoo.modules.loading: loading web_editor/security/ir.model.access.csv 
+2022-10-17 05:55:01,422 5508 INFO MASSTECH odoo.modules.loading: loading web_editor/data/editor_assets.xml 
+2022-10-17 05:55:01,429 5508 INFO MASSTECH odoo.modules.loading: loading web_editor/views/editor.xml 
+2022-10-17 05:55:01,460 5508 INFO MASSTECH odoo.modules.loading: loading web_editor/views/snippets.xml 
+2022-10-17 05:55:01,520 5508 INFO MASSTECH odoo.modules.loading: Module web_editor loaded in 1.07s, 245 queries 
+2022-10-17 05:55:01,520 5508 INFO MASSTECH odoo.modules.loading: Loading module web_kanban_gauge (6/7) 
+2022-10-17 05:55:01,631 5508 INFO MASSTECH odoo.modules.loading: Module web_kanban_gauge loaded in 0.11s, 18 queries 
+2022-10-17 05:55:01,631 5508 INFO MASSTECH odoo.modules.loading: Loading module web_tour (7/7) 
+2022-10-17 05:55:01,738 5508 INFO MASSTECH odoo.modules.registry: module web_tour: creating or updating database tables 
+2022-10-17 05:55:01,862 5508 INFO MASSTECH odoo.modules.loading: loading web_tour/security/ir.model.access.csv 
+2022-10-17 05:55:01,879 5508 INFO MASSTECH odoo.modules.loading: loading web_tour/security/ir.rule.csv 
+2022-10-17 05:55:01,893 5508 INFO MASSTECH odoo.modules.loading: loading web_tour/views/tour_views.xml 
+2022-10-17 05:55:01,938 5508 INFO MASSTECH odoo.modules.loading: Module web_tour loaded in 0.31s, 116 queries 
+2022-10-17 05:55:01,938 5508 INFO MASSTECH odoo.modules.loading: 7 modules loaded in 6.32s, 2376 queries (+0 extra) 
+2022-10-17 05:55:02,218 5508 INFO MASSTECH odoo.modules.loading: Modules loaded. 
+2022-10-17 05:55:02,220 5508 INFO MASSTECH odoo.modules.registry: Registry loaded in 34.548s 
+2022-10-17 05:55:02,353 5508 INFO MASSTECH odoo.addons.base.models.res_users: Login successful for db:MASSTECH login:hellodarky8@gmail.com from 127.0.0.1 
+2022-10-17 05:55:02,380 5508 INFO MASSTECH odoo.modules.registry: Registry changed, signaling through the database 
+2022-10-17 05:55:02,417 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:02] "POST /web/database/create HTTP/1.1" 303 - 16407 40.429 10.705
+2022-10-17 05:55:02,438 5508 INFO MASSTECH odoo.addons.base.models.ir_http: Generating routing map for key None 
+2022-10-17 05:55:12,443 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:12] "GET /web HTTP/1.1" 200 - 178 0.126 9.882
+2022-10-17 05:55:13,144 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:13] "GET /web/assets/14-9f27217/web.assets_backend.min.css HTTP/1.1" 200 - 2 0.003 0.349
+2022-10-17 05:55:13,159 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:13] "GET /web/assets/13-c3feae8/web.assets_common.min.css HTTP/1.1" 200 - 2 0.005 0.365
+2022-10-17 05:55:13,178 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:13] "GET /web/webclient/load_menus/1f5717edb4e7bec8acddc90b224f148fb9c759c1c5c867ed74b93ffc796e8f1b HTTP/1.1" 200 - 1 0.002 0.373
+2022-10-17 05:55:13,180 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:13] "GET /web/assets/17-ca06e41/web.assets_backend_prod_only.min.js HTTP/1.1" 200 - 2 0.015 0.365
+2022-10-17 05:55:13,180 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:13] "GET /web/assets/16-9f27217/web.assets_backend.min.js HTTP/1.1" 200 - 2 0.004 0.379
+2022-10-17 05:55:13,182 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:13] "GET /web/assets/15-c3feae8/web.assets_common.min.js HTTP/1.1" 200 - 2 0.016 0.372
+2022-10-17 05:55:13,522 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:13] "GET /web/webclient/translations/5227498d9df4b403b0244c75aac21e0c091e50ce?lang=en_US HTTP/1.1" 200 - 5 0.016 0.011
+2022-10-17 05:55:13,616 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:13] "GET /web/webclient/qweb/68c9977638985578c2bb74dab7233186aad671a496de913111a5352dac4df055?bundle=web.assets_qweb HTTP/1.1" 200 - 2 0.003 0.119
+2022-10-17 05:55:14,067 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:14] "GET /web/webclient/locale/en_US HTTP/1.1" 200 - 1 0.001 0.009
+2022-10-17 05:55:14,423 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:14] "POST /web/action/load HTTP/1.1" 200 - 28 0.062 0.047
+2022-10-17 05:55:14,491 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:14] "GET /web/image/res.company/1/favicon HTTP/1.1" 200 - 11 0.022 0.013
+2022-10-17 05:55:14,514 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:14] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 16 0.020 0.020
+2022-10-17 05:55:14,579 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:14] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 - 58 0.072 0.049
+2022-10-17 05:55:14,827 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:14] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 42 0.060 0.025
+2022-10-17 05:55:14,948 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:14] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.011 0.020
+2022-10-17 05:55:15,173 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:15] "GET /sale_management/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-10-17 05:55:15,406 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:15] "GET /hr_expense/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-10-17 05:55:15,421 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:15] "GET /hr_holidays/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-10-17 05:55:15,431 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:15] "GET /maintenance/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-10-17 05:55:15,442 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:15] "GET /hr/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-10-17 05:55:15,464 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:15] "GET /base/static/img/icons/sale_subscription.png HTTP/1.1" 200 - - - -
+2022-10-17 05:55:15,556 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:15] "GET /hr_recruitment/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-10-17 05:55:15,780 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:15] "GET /mrp/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-10-17 05:55:15,801 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:15] "GET /base/static/img/icons/timesheet_grid.png HTTP/1.1" 200 - - - -
+2022-10-17 05:55:15,802 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:15] "GET /base/static/img/icons/web_studio.png HTTP/1.1" 200 - - - -
+2022-10-17 05:55:15,813 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:15] "GET /point_of_sale/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-10-17 05:55:15,825 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:15] "GET /project/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-10-17 05:55:15,891 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:15] "GET /mass_mailing/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-10-17 05:55:16,129 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:16] "GET /base/static/img/icons/sign.png HTTP/1.1" 200 - - - -
+2022-10-17 05:55:16,129 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:16] "GET /website_sale/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-10-17 05:55:16,129 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:16] "GET /base/static/img/icons/industry_fsm.png HTTP/1.1" 200 - - - -
+2022-10-17 05:55:16,129 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:16] "GET /purchase/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-10-17 05:55:16,160 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:16] "GET /base/static/img/icons/helpdesk.png HTTP/1.1" 200 - - - -
+2022-10-17 05:55:16,237 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:16] "GET /account/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-10-17 05:55:16,461 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:16] "GET /base/static/img/icons/mrp_workorder.png HTTP/1.1" 200 - - - -
+2022-10-17 05:55:16,479 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:16] "GET /crm/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-10-17 05:55:16,480 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:16] "GET /website/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-10-17 05:55:16,486 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:16] "GET /base/static/img/icons/account_accountant.png HTTP/1.1" 200 - - - -
+2022-10-17 05:55:16,490 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:16] "GET /stock/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-10-17 05:55:16,550 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:16] "GET /base/static/img/icons/quality_control.png HTTP/1.1" 200 - - - -
+2022-10-17 05:55:16,784 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:16] "GET /website_slides/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-10-17 05:55:16,800 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:16] "GET /website_event/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-10-17 05:55:16,801 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:16] "GET /base/static/img/icons/planning.png HTTP/1.1" 200 - - - -
+2022-10-17 05:55:16,807 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:16] "GET /contacts/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-10-17 05:55:16,851 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:16] "GET /mail/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-10-17 05:55:16,857 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:16] "GET /base/static/img/icons/mrp_plm.png HTTP/1.1" 200 - - - -
+2022-10-17 05:55:17,114 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:17] "GET /base/static/img/icons/hr_appraisal.png HTTP/1.1" 200 - - - -
+2022-10-17 05:55:17,129 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:17] "GET /calendar/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-10-17 05:55:17,138 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:17] "GET /fleet/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-10-17 05:55:17,150 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:17] "GET /base/static/img/icons/marketing_automation.png HTTP/1.1" 200 - - - -
+2022-10-17 05:55:17,156 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:17] "GET /website_blog/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-10-17 05:55:17,179 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:17] "GET /im_livechat/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-10-17 05:55:17,423 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:17] "GET /base/static/img/icons/appointment.png HTTP/1.1" 200 - - - -
+2022-10-17 05:55:17,474 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:17] "GET /base/static/img/icons/web_mobile.png HTTP/1.1" 200 - - - -
+2022-10-17 05:55:17,484 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:17] "GET /survey/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-10-17 05:55:17,493 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:17] "GET /board/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-10-17 05:55:17,505 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:17] "GET /repair/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-10-17 05:55:17,515 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:17] "GET /hr_attendance/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-10-17 05:55:17,754 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:17] "GET /mass_mailing_sms/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-10-17 05:55:17,806 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:17] "GET /website_forum/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-10-17 05:55:17,813 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:17] "GET /base/static/img/icons/stock_barcode.png HTTP/1.1" 200 - - - -
+2022-10-17 05:55:17,816 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:17] "GET /note/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-10-17 05:55:17,842 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:17] "GET /base/static/img/icons/voip.png HTTP/1.1" 200 - - - -
+2022-10-17 05:55:17,867 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:17] "GET /hr_skills/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-10-17 05:55:18,092 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:18] "GET /lunch/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-10-17 05:55:18,127 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:18] "GET /website_hr_recruitment/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-10-17 05:55:18,161 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:18] "GET /base/static/img/icons/sale_ebay.png HTTP/1.1" 200 - - - -
+2022-10-17 05:55:18,179 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:18] "GET /payment_adyen/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-10-17 05:55:18,183 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:18] "GET /hr_contract/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-10-17 05:55:18,200 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:18] "GET /payment_alipay/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-10-17 05:55:18,428 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:18] "GET /payment_authorize/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-10-17 05:55:18,463 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:18] "GET /payment_buckaroo/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-10-17 05:55:18,485 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:18] "GET /payment_mollie/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-10-17 05:55:18,499 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:18] "GET /payment_ogone/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-10-17 05:55:18,508 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:18] "GET /payment_paypal/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-10-17 05:55:18,534 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:18] "GET /payment_payulatam/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-10-17 05:55:18,772 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:18] "GET /payment_payumoney/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-10-17 05:55:18,794 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:18] "GET /payment_stripe/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-10-17 05:55:18,831 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:18] "GET /payment_sips/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-10-17 05:55:21,552 5508 INFO MASSTECH odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['Sales'] to user hellodarky8@gmail.com #2 via 127.0.0.1 
+2022-10-17 05:55:21,552 5508 INFO MASSTECH odoo.addons.base.models.ir_module: User #2 triggered module installation 
+2022-10-17 05:55:21,558 5508 INFO MASSTECH odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['Sales'] to user hellodarky8@gmail.com #2 via 127.0.0.1 
+2022-10-17 05:55:21,842 5508 INFO MASSTECH odoo.modules.loading: loading 1 modules... 
+2022-10-17 05:55:21,842 5508 INFO MASSTECH odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2022-10-17 05:55:21,873 5508 INFO MASSTECH odoo.modules.loading: updating modules list 
+2022-10-17 05:55:21,873 5508 INFO MASSTECH odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2022-10-17 05:55:23,170 5508 INFO MASSTECH odoo.modules.loading: loading 7 modules... 
+2022-10-17 05:55:23,186 5508 INFO MASSTECH odoo.modules.loading: 7 modules loaded in 0.02s, 0 queries (+0 extra) 
+2022-10-17 05:55:23,217 5508 INFO MASSTECH odoo.modules.loading: loading 40 modules... 
+2022-10-17 05:55:23,217 5508 INFO MASSTECH odoo.modules.loading: Loading module uom (2/40) 
+2022-10-17 05:55:23,311 5508 INFO MASSTECH odoo.modules.registry: module uom: creating or updating database tables 
+2022-10-17 05:55:23,608 5508 INFO MASSTECH odoo.modules.loading: loading uom/data/uom_data.xml 
+2022-10-17 05:55:23,701 5508 INFO MASSTECH odoo.modules.loading: loading uom/security/uom_security.xml 
+2022-10-17 05:55:23,733 5508 INFO MASSTECH odoo.modules.loading: loading uom/security/ir.model.access.csv 
+2022-10-17 05:55:23,748 5508 INFO MASSTECH odoo.modules.loading: loading uom/views/uom_uom_views.xml 
+2022-10-17 05:55:23,811 5508 INFO MASSTECH odoo.modules.loading: Module uom loaded in 0.59s, 276 queries 
+2022-10-17 05:55:23,811 5508 INFO MASSTECH odoo.modules.loading: Loading module base_setup (6/40) 
+2022-10-17 05:55:23,951 5508 INFO MASSTECH odoo.modules.registry: module base_setup: creating or updating database tables 
+2022-10-17 05:55:24,035 5508 INFO MASSTECH odoo.modules.loading: loading base_setup/data/base_setup_data.xml 
+2022-10-17 05:55:24,035 5508 INFO MASSTECH odoo.modules.loading: loading base_setup/views/res_config_settings_views.xml 
+2022-10-17 05:55:24,097 5508 INFO MASSTECH odoo.modules.loading: loading base_setup/views/res_partner_views.xml 
+2022-10-17 05:55:24,144 5508 INFO MASSTECH odoo.modules.loading: Module base_setup loaded in 0.33s, 169 queries 
+2022-10-17 05:55:24,144 5508 INFO MASSTECH odoo.modules.loading: Loading module bus (7/40) 
+2022-10-17 05:55:24,206 5508 INFO MASSTECH odoo.modules.registry: module bus: creating or updating database tables 
+2022-10-17 05:55:24,235 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:55:24] "GET /web/static/img/spin.png HTTP/1.1" 200 - - - -
+2022-10-17 05:55:24,606 5508 INFO MASSTECH odoo.modules.loading: loading bus/security/ir.model.access.csv 
+2022-10-17 05:55:24,635 5508 INFO MASSTECH odoo.modules.loading: Module bus loaded in 0.49s, 102 queries 
+2022-10-17 05:55:24,635 5508 INFO MASSTECH odoo.modules.loading: Loading module http_routing (8/40) 
+2022-10-17 05:55:24,704 5508 INFO MASSTECH odoo.modules.registry: module http_routing: creating or updating database tables 
+2022-10-17 05:55:24,738 5508 INFO MASSTECH odoo.modules.loading: loading http_routing/views/http_routing_template.xml 
+2022-10-17 05:55:24,812 5508 INFO MASSTECH odoo.modules.loading: loading http_routing/views/res_lang_views.xml 
+2022-10-17 05:55:24,847 5508 INFO MASSTECH odoo.modules.loading: Module http_routing loaded in 0.21s, 104 queries 
+2022-10-17 05:55:24,848 5508 INFO MASSTECH odoo.modules.loading: Loading module resource (9/40) 
+2022-10-17 05:55:25,942 5508 INFO MASSTECH odoo.modules.registry: module resource: creating or updating database tables 
+2022-10-17 05:55:27,234 5508 INFO MASSTECH odoo.modules.loading: loading resource/data/resource_data.xml 
+2022-10-17 05:55:27,369 5508 INFO MASSTECH odoo.modules.loading: loading resource/security/ir.model.access.csv 
+2022-10-17 05:55:27,392 5508 INFO MASSTECH odoo.modules.loading: loading resource/security/resource_security.xml 
+2022-10-17 05:55:27,425 5508 INFO MASSTECH odoo.modules.loading: loading resource/views/resource_views.xml 
+2022-10-17 05:55:27,598 5508 INFO MASSTECH odoo.modules.loading: Module resource loaded in 2.75s, 521 queries 
+2022-10-17 05:55:27,598 5508 INFO MASSTECH odoo.modules.loading: Loading module utm (10/40) 
+2022-10-17 05:55:27,730 5508 INFO MASSTECH odoo.modules.registry: module utm: creating or updating database tables 
+2022-10-17 05:55:28,599 5508 INFO MASSTECH odoo.modules.loading: loading utm/data/utm_data.xml 
+2022-10-17 05:55:28,664 5508 INFO MASSTECH odoo.modules.loading: loading utm/views/utm_campaign_views.xml 
+2022-10-17 05:55:28,724 5508 INFO MASSTECH odoo.modules.loading: loading utm/views/utm_views.xml 
+2022-10-17 05:55:28,819 5508 INFO MASSTECH odoo.modules.loading: loading utm/security/ir.model.access.csv 
+2022-10-17 05:55:28,875 5508 INFO MASSTECH odoo.modules.loading: Module utm loaded in 1.28s, 384 queries 
+2022-10-17 05:55:28,875 5508 INFO MASSTECH odoo.modules.loading: Loading module iap (14/40) 
+2022-10-17 05:55:28,978 5508 INFO MASSTECH odoo.modules.registry: module iap: creating or updating database tables 
+2022-10-17 05:55:29,229 5508 INFO MASSTECH odoo.modules.loading: loading iap/security/ir.model.access.csv 
+2022-10-17 05:55:29,243 5508 INFO MASSTECH odoo.modules.loading: loading iap/security/ir_rule.xml 
+2022-10-17 05:55:29,258 5508 INFO MASSTECH odoo.modules.loading: loading iap/views/iap_views.xml 
+2022-10-17 05:55:29,286 5508 INFO MASSTECH odoo.modules.loading: loading iap/views/res_config_settings.xml 
+2022-10-17 05:55:29,331 5508 INFO MASSTECH odoo.modules.loading: Module iap loaded in 0.46s, 156 queries 
+2022-10-17 05:55:29,331 5508 INFO MASSTECH odoo.modules.loading: Loading module mail (15/40) 
+2022-10-17 05:55:29,967 5508 INFO MASSTECH odoo.modules.registry: module mail: creating or updating database tables 
+2022-10-17 05:55:36,023 5508 INFO MASSTECH odoo.models: Storing computed values of res.partner.email_normalized 
+2022-10-17 05:55:39,383 5508 INFO MASSTECH odoo.modules.loading: loading mail/data/mail_groups.xml 
+2022-10-17 05:55:39,428 5508 INFO MASSTECH odoo.modules.loading: loading mail/wizard/mail_blacklist_remove_views.xml 
+2022-10-17 05:55:39,447 5508 INFO MASSTECH odoo.modules.loading: loading mail/wizard/mail_compose_message_views.xml 
+2022-10-17 05:55:39,468 5508 INFO MASSTECH odoo.modules.loading: loading mail/wizard/mail_resend_cancel_views.xml 
+2022-10-17 05:55:39,641 5508 INFO MASSTECH odoo.modules.loading: loading mail/wizard/mail_resend_message_views.xml 
+2022-10-17 05:55:39,670 5508 INFO MASSTECH odoo.modules.loading: loading mail/wizard/mail_template_preview_views.xml 
+2022-10-17 05:55:39,690 5508 INFO MASSTECH odoo.modules.loading: loading mail/wizard/mail_wizard_invite_views.xml 
+2022-10-17 05:55:39,704 5508 INFO MASSTECH odoo.modules.loading: loading mail/views/mail_message_subtype_views.xml 
+2022-10-17 05:55:39,730 5508 INFO MASSTECH odoo.modules.loading: loading mail/views/mail_tracking_views.xml 
+2022-10-17 05:55:39,747 5508 INFO MASSTECH odoo.modules.loading: loading mail/views/mail_notification_views.xml 
+2022-10-17 05:55:39,763 5508 INFO MASSTECH odoo.modules.loading: loading mail/views/mail_message_views.xml 
+2022-10-17 05:55:39,799 5508 INFO MASSTECH odoo.modules.loading: loading mail/views/mail_mail_views.xml 
+2022-10-17 05:55:39,823 5508 INFO MASSTECH odoo.modules.loading: loading mail/views/mail_followers_views.xml 
+2022-10-17 05:55:39,839 5508 INFO MASSTECH odoo.modules.loading: loading mail/views/mail_ice_server_views.xml 
+2022-10-17 05:55:39,855 5508 INFO MASSTECH odoo.modules.loading: loading mail/views/mail_channel_partner_views.xml 
+2022-10-17 05:55:39,870 5508 INFO MASSTECH odoo.modules.loading: loading mail/views/mail_channel_rtc_session_views.xml 
+2022-10-17 05:55:39,892 5508 INFO MASSTECH odoo.modules.loading: loading mail/views/mail_channel_views.xml 
+2022-10-17 05:55:39,926 5508 INFO MASSTECH odoo.modules.loading: loading mail/views/mail_shortcode_views.xml 
+2022-10-17 05:55:39,943 5508 INFO MASSTECH odoo.modules.loading: loading mail/views/mail_activity_views.xml 
+2022-10-17 05:55:40,006 5508 INFO MASSTECH odoo.modules.loading: loading mail/views/res_config_settings_views.xml 
+2022-10-17 05:55:40,038 5508 INFO MASSTECH odoo.modules.loading: loading mail/data/res_partner_data.xml 
+2022-10-17 05:55:40,076 5508 INFO MASSTECH odoo.modules.loading: loading mail/data/mail_message_subtype_data.xml 
+2022-10-17 05:55:40,090 5508 INFO MASSTECH odoo.modules.loading: loading mail/data/mail_templates.xml 
+2022-10-17 05:55:40,141 5508 INFO MASSTECH odoo.modules.loading: loading mail/data/mail_channel_data.xml 
+2022-10-17 05:55:40,183 5508 INFO MASSTECH odoo.modules.loading: loading mail/data/mail_activity_data.xml 
+2022-10-17 05:55:40,210 5508 INFO MASSTECH odoo.modules.loading: loading mail/data/ir_cron_data.xml 
+2022-10-17 05:55:40,241 5508 INFO MASSTECH odoo.modules.loading: loading mail/security/mail_security.xml 
+2022-10-17 05:55:40,514 5508 INFO MASSTECH odoo.modules.loading: loading mail/security/ir.model.access.csv 
+2022-10-17 05:55:40,621 5508 INFO MASSTECH odoo.modules.loading: loading mail/views/discuss_public_templates.xml 
+2022-10-17 05:55:40,633 5508 INFO MASSTECH odoo.modules.loading: loading mail/views/mail_alias_views.xml 
+2022-10-17 05:55:40,653 5508 INFO MASSTECH odoo.modules.loading: loading mail/views/mail_guest_views.xml 
+2022-10-17 05:55:40,664 5508 INFO MASSTECH odoo.modules.loading: loading mail/views/mail_message_reaction_views.xml 
+2022-10-17 05:55:40,675 5508 INFO MASSTECH odoo.modules.loading: loading mail/views/res_users_views.xml 
+2022-10-17 05:55:40,699 5508 INFO MASSTECH odoo.modules.loading: loading mail/views/res_users_settings_views.xml 
+2022-10-17 05:55:40,716 5508 INFO MASSTECH odoo.modules.loading: loading mail/views/mail_template_views.xml 
+2022-10-17 05:55:40,743 5508 INFO MASSTECH odoo.modules.loading: loading mail/views/ir_actions_server_views.xml 
+2022-10-17 05:55:40,757 5508 INFO MASSTECH odoo.modules.loading: loading mail/views/ir_model_views.xml 
+2022-10-17 05:55:40,789 5508 INFO MASSTECH odoo.modules.loading: loading mail/views/res_partner_views.xml 
+2022-10-17 05:55:40,879 5508 INFO MASSTECH odoo.modules.loading: loading mail/views/mail_blacklist_views.xml 
+2022-10-17 05:55:40,899 5508 INFO MASSTECH odoo.modules.loading: loading mail/views/mail_menus.xml 
+2022-10-17 05:55:41,102 5508 INFO MASSTECH odoo.modules.loading: Module mail loaded in 11.77s, 3316 queries 
+2022-10-17 05:55:41,103 5508 INFO MASSTECH odoo.modules.loading: Loading module web_unsplash (16/40) 
+2022-10-17 05:55:41,240 5508 INFO MASSTECH odoo.modules.registry: module web_unsplash: creating or updating database tables 
+2022-10-17 05:55:41,331 5508 INFO MASSTECH odoo.modules.loading: loading web_unsplash/views/res_config_settings_view.xml 
+2022-10-17 05:55:41,382 5508 INFO MASSTECH odoo.modules.loading: Module web_unsplash loaded in 0.28s, 88 queries 
+2022-10-17 05:55:41,383 5508 INFO MASSTECH odoo.modules.loading: Loading module analytic (17/40) 
+2022-10-17 05:55:41,580 5508 INFO MASSTECH odoo.modules.registry: module analytic: creating or updating database tables 
+2022-10-17 05:55:42,948 5508 INFO MASSTECH odoo.modules.loading: loading analytic/security/analytic_security.xml 
+2022-10-17 05:55:42,999 5508 INFO MASSTECH odoo.modules.loading: loading analytic/security/ir.model.access.csv 
+2022-10-17 05:55:43,019 5508 INFO MASSTECH odoo.modules.loading: loading analytic/views/analytic_account_views.xml 
+2022-10-17 05:55:43,181 5508 INFO MASSTECH odoo.modules.loading: Module analytic loaded in 1.80s, 409 queries 
+2022-10-17 05:55:43,182 5508 INFO MASSTECH odoo.modules.loading: Loading module auth_signup (18/40) 
+2022-10-17 05:55:43,381 5508 INFO MASSTECH odoo.modules.registry: module auth_signup: creating or updating database tables 
+2022-10-17 05:55:43,495 5508 INFO MASSTECH odoo.modules.loading: loading auth_signup/data/ir_config_parameter_data.xml 
+2022-10-17 05:55:43,506 5508 INFO MASSTECH odoo.modules.loading: loading auth_signup/data/ir_cron_data.xml 
+2022-10-17 05:55:43,518 5508 INFO MASSTECH odoo.modules.loading: loading auth_signup/data/mail_template_data.xml 
+2022-10-17 05:55:43,539 5508 INFO MASSTECH odoo.modules.loading: loading auth_signup/views/res_config_settings_views.xml 
+2022-10-17 05:55:43,670 5508 INFO MASSTECH odoo.modules.loading: loading auth_signup/views/res_users_views.xml 
+2022-10-17 05:55:43,913 5508 INFO MASSTECH odoo.modules.loading: loading auth_signup/views/auth_signup_login_templates.xml 
+2022-10-17 05:55:44,022 5508 INFO MASSTECH odoo.modules.loading: Module auth_signup loaded in 0.84s, 191 queries 
+2022-10-17 05:55:44,023 5508 INFO MASSTECH odoo.modules.loading: Loading module auth_totp_mail (19/40) 
+2022-10-17 05:55:44,160 5508 INFO MASSTECH odoo.modules.registry: module auth_totp_mail: creating or updating database tables 
+2022-10-17 05:55:44,198 5508 INFO MASSTECH odoo.modules.loading: loading auth_totp_mail/data/ir_action_data.xml 
+2022-10-17 05:55:44,248 5508 INFO MASSTECH odoo.modules.loading: loading auth_totp_mail/data/mail_template_data.xml 
+2022-10-17 05:55:44,256 5508 INFO MASSTECH odoo.modules.loading: loading auth_totp_mail/views/res_users_views.xml 
+2022-10-17 05:55:44,304 5508 INFO MASSTECH odoo.modules.loading: Module auth_totp_mail loaded in 0.28s, 94 queries 
+2022-10-17 05:55:44,305 5508 INFO MASSTECH odoo.modules.loading: Loading module fetchmail (20/40) 
+2022-10-17 05:55:44,570 5508 INFO MASSTECH odoo.modules.registry: module fetchmail: creating or updating database tables 
+2022-10-17 05:55:45,136 5508 INFO MASSTECH odoo.modules.loading: loading fetchmail/data/fetchmail_data.xml 
+2022-10-17 05:55:45,194 5508 INFO MASSTECH odoo.modules.loading: loading fetchmail/security/ir.model.access.csv 
+2022-10-17 05:55:45,211 5508 INFO MASSTECH odoo.modules.loading: loading fetchmail/views/fetchmail_views.xml 
+2022-10-17 05:55:45,265 5508 INFO MASSTECH odoo.modules.loading: loading fetchmail/views/mail_mail_views.xml 
+2022-10-17 05:55:45,299 5508 INFO MASSTECH odoo.modules.loading: loading fetchmail/views/res_config_settings_views.xml 
+2022-10-17 05:55:45,365 5508 INFO MASSTECH odoo.modules.loading: Module fetchmail loaded in 1.06s, 189 queries 
+2022-10-17 05:55:45,365 5508 INFO MASSTECH odoo.modules.loading: Loading module iap_mail (21/40) 
+2022-10-17 05:55:45,507 5508 INFO MASSTECH odoo.modules.loading: loading iap_mail/data/mail_templates.xml 
+2022-10-17 05:55:45,652 5508 INFO MASSTECH odoo.modules.loading: Module iap_mail loaded in 0.29s, 28 queries 
+2022-10-17 05:55:45,652 5508 INFO MASSTECH odoo.modules.loading: Loading module mail_bot (22/40) 
+2022-10-17 05:55:45,804 5508 INFO MASSTECH odoo.modules.registry: module mail_bot: creating or updating database tables 
+2022-10-17 05:55:45,934 5508 INFO MASSTECH odoo.modules.loading: loading mail_bot/views/res_users_views.xml 
+2022-10-17 05:55:46,054 5508 INFO MASSTECH odoo.modules.loading: loading mail_bot/data/mailbot_data.xml 
+2022-10-17 05:55:46,098 5508 INFO MASSTECH odoo.modules.loading: Module mail_bot loaded in 0.45s, 138 queries 
+2022-10-17 05:55:46,098 5508 INFO MASSTECH odoo.modules.loading: Loading module phone_validation (23/40) 
+2022-10-17 05:55:48,486 5508 INFO MASSTECH odoo.modules.registry: module phone_validation: creating or updating database tables 
+2022-10-17 05:55:48,996 5508 INFO MASSTECH odoo.modules.loading: loading phone_validation/security/ir.model.access.csv 
+2022-10-17 05:55:49,012 5508 INFO MASSTECH odoo.modules.loading: loading phone_validation/views/phone_blacklist_views.xml 
+2022-10-17 05:55:49,057 5508 INFO MASSTECH odoo.modules.loading: loading phone_validation/wizard/phone_blacklist_remove_view.xml 
+2022-10-17 05:55:49,092 5508 INFO MASSTECH odoo.modules.loading: Module phone_validation loaded in 2.99s, 179 queries 
+2022-10-17 05:55:49,093 5508 INFO MASSTECH odoo.modules.loading: Loading module product (24/40) 
+2022-10-17 05:55:50,265 5508 INFO MASSTECH odoo.modules.registry: module product: creating or updating database tables 
+2022-10-17 05:55:54,667 5508 INFO MASSTECH odoo.modules.loading: loading product/data/product_data.xml 
+2022-10-17 05:55:54,714 5508 INFO MASSTECH odoo.modules.loading: loading product/security/product_security.xml 
+2022-10-17 05:55:54,781 5508 INFO MASSTECH odoo.modules.loading: loading product/security/ir.model.access.csv 
+2022-10-17 05:55:54,834 5508 INFO MASSTECH odoo.modules.loading: loading product/wizard/product_label_layout_views.xml 
+2022-10-17 05:55:54,859 5508 INFO MASSTECH odoo.modules.loading: loading product/views/res_config_settings_views.xml 
+2022-10-17 05:55:54,916 5508 INFO MASSTECH odoo.modules.loading: loading product/views/product_attribute_views.xml 
+2022-10-17 05:55:54,976 5508 INFO MASSTECH odoo.modules.loading: loading product/views/product_views.xml 
+2022-10-17 05:55:55,186 5508 INFO MASSTECH odoo.modules.loading: loading product/views/product_template_views.xml 
+2022-10-17 05:55:55,245 5508 INFO MASSTECH odoo.modules.loading: loading product/views/product_pricelist_views.xml 
+2022-10-17 05:55:55,399 5508 INFO MASSTECH odoo.modules.loading: loading product/views/res_partner_views.xml 
+2022-10-17 05:55:55,433 5508 INFO MASSTECH odoo.modules.loading: loading product/report/product_reports.xml 
+2022-10-17 05:55:55,469 5508 INFO MASSTECH odoo.modules.loading: loading product/report/product_product_templates.xml 
+2022-10-17 05:55:55,504 5508 INFO MASSTECH odoo.modules.loading: loading product/report/product_template_templates.xml 
+2022-10-17 05:55:55,516 5508 INFO MASSTECH odoo.modules.loading: loading product/report/product_packaging.xml 
+2022-10-17 05:55:55,525 5508 INFO MASSTECH odoo.modules.loading: loading product/report/product_pricelist_report_templates.xml 
+2022-10-17 05:55:55,624 5508 INFO MASSTECH odoo.modules.loading: Module product loaded in 6.53s, 1393 queries 
+2022-10-17 05:55:55,624 5508 INFO MASSTECH odoo.modules.loading: Loading module sales_team (25/40) 
+2022-10-17 05:55:55,820 5508 INFO MASSTECH odoo.modules.registry: module sales_team: creating or updating database tables 
+2022-10-17 05:55:56,270 5508 INFO MASSTECH odoo.models: Storing computed values of res.users.sale_team_id 
+2022-10-17 05:55:56,729 5508 INFO MASSTECH odoo.modules.loading: loading sales_team/security/sales_team_security.xml 
+2022-10-17 05:55:56,830 5508 INFO MASSTECH odoo.modules.loading: loading sales_team/security/ir.model.access.csv 
+2022-10-17 05:55:56,858 5508 INFO MASSTECH odoo.modules.loading: loading sales_team/data/crm_team_data.xml 
+2022-10-17 05:55:56,951 5508 INFO MASSTECH odoo.modules.loading: loading sales_team/views/crm_tag_views.xml 
+2022-10-17 05:55:56,971 5508 INFO MASSTECH odoo.modules.loading: loading sales_team/views/crm_team_views.xml 
+2022-10-17 05:55:57,031 5508 INFO MASSTECH odoo.modules.loading: loading sales_team/views/crm_team_member_views.xml 
+2022-10-17 05:55:57,086 5508 INFO MASSTECH odoo.modules.loading: loading sales_team/views/mail_activity_views.xml 
+2022-10-17 05:55:57,094 5508 INFO MASSTECH odoo.modules.loading: loading sales_team/views/res_partner_views.xml 
+2022-10-17 05:55:57,135 5508 INFO MASSTECH odoo.modules.loading: Module sales_team loaded in 1.51s, 525 queries 
+2022-10-17 05:55:57,135 5508 INFO MASSTECH odoo.modules.loading: Loading module partner_autocomplete (26/40) 
+2022-10-17 05:55:57,336 5508 INFO MASSTECH odoo.modules.registry: module partner_autocomplete: creating or updating database tables 
+2022-10-17 05:55:57,532 5508 INFO MASSTECH odoo.modules.loading: loading partner_autocomplete/security/ir.model.access.csv 
+2022-10-17 05:55:57,548 5508 INFO MASSTECH odoo.modules.loading: loading partner_autocomplete/views/res_partner_views.xml 
+2022-10-17 05:55:57,586 5508 INFO MASSTECH odoo.modules.loading: loading partner_autocomplete/views/res_company_views.xml 
+2022-10-17 05:55:57,744 5508 INFO MASSTECH odoo.modules.loading: loading partner_autocomplete/views/res_config_settings_views.xml 
+2022-10-17 05:55:57,811 5508 INFO MASSTECH odoo.modules.loading: loading partner_autocomplete/data/cron.xml 
+2022-10-17 05:55:57,852 5508 INFO MASSTECH odoo.modules.loading: Module partner_autocomplete loaded in 0.72s, 188 queries 
+2022-10-17 05:55:57,853 5508 INFO MASSTECH odoo.modules.loading: Loading module portal (27/40) 
+2022-10-17 05:55:58,182 5508 INFO MASSTECH odoo.modules.registry: module portal: creating or updating database tables 
+2022-10-17 05:55:59,018 5508 INFO MASSTECH odoo.modules.loading: loading portal/security/ir.model.access.csv 
+2022-10-17 05:55:59,032 5508 INFO MASSTECH odoo.modules.loading: loading portal/data/mail_template_data.xml 
+2022-10-17 05:55:59,041 5508 INFO MASSTECH odoo.modules.loading: loading portal/data/mail_templates.xml 
+2022-10-17 05:55:59,050 5508 INFO MASSTECH odoo.modules.loading: loading portal/views/portal_templates.xml 
+2022-10-17 05:55:59,191 5508 INFO MASSTECH odoo.modules.loading: loading portal/views/res_config_settings_views.xml 
+2022-10-17 05:55:59,214 5508 INFO MASSTECH odoo.modules.loading: loading portal/wizard/portal_share_views.xml 
+2022-10-17 05:55:59,231 5508 INFO MASSTECH odoo.modules.loading: loading portal/wizard/portal_wizard_views.xml 
+2022-10-17 05:55:59,271 5508 INFO MASSTECH odoo.modules.loading: Module portal loaded in 1.42s, 459 queries 
+2022-10-17 05:55:59,271 5508 INFO MASSTECH odoo.modules.loading: Loading module sms (28/40) 
+2022-10-17 05:55:59,699 5508 INFO MASSTECH odoo.modules.registry: module sms: creating or updating database tables 
+2022-10-17 05:56:00,706 5508 INFO MASSTECH odoo.models: Storing computed values of res.partner.phone_sanitized 
+2022-10-17 05:56:01,066 5508 INFO MASSTECH odoo.addons.phone_validation.tools.phone_validation: The `phonenumbers` Python module is not installed, contact numbers will not be verified. Please install the `phonenumbers` Python module. 
+2022-10-17 05:56:01,122 5508 INFO MASSTECH odoo.modules.loading: loading sms/data/ir_cron_data.xml 
+2022-10-17 05:56:01,148 5508 INFO MASSTECH odoo.modules.loading: loading sms/wizard/sms_cancel_views.xml 
+2022-10-17 05:56:01,176 5508 INFO MASSTECH odoo.modules.loading: loading sms/wizard/sms_composer_views.xml 
+2022-10-17 05:56:01,195 5508 INFO MASSTECH odoo.modules.loading: loading sms/wizard/sms_template_preview_views.xml 
+2022-10-17 05:56:01,214 5508 INFO MASSTECH odoo.modules.loading: loading sms/wizard/sms_resend_views.xml 
+2022-10-17 05:56:01,236 5508 INFO MASSTECH odoo.modules.loading: loading sms/views/ir_actions_views.xml 
+2022-10-17 05:56:01,256 5508 INFO MASSTECH odoo.modules.loading: loading sms/views/mail_notification_views.xml 
+2022-10-17 05:56:01,278 5508 INFO MASSTECH odoo.modules.loading: loading sms/views/res_config_settings_views.xml 
+2022-10-17 05:56:01,318 5508 INFO MASSTECH odoo.modules.loading: loading sms/views/res_partner_views.xml 
+2022-10-17 05:56:01,373 5508 INFO MASSTECH odoo.modules.loading: loading sms/views/sms_sms_views.xml 
+2022-10-17 05:56:01,419 5508 INFO MASSTECH odoo.modules.loading: loading sms/views/sms_template_views.xml 
+2022-10-17 05:56:01,462 5508 INFO MASSTECH odoo.modules.loading: loading sms/security/ir.model.access.csv 
+2022-10-17 05:56:01,508 5508 INFO MASSTECH odoo.modules.loading: loading sms/security/sms_security.xml 
+2022-10-17 05:56:01,546 5508 INFO MASSTECH odoo.modules.loading: Module sms loaded in 2.27s, 624 queries 
+2022-10-17 05:56:01,546 5508 INFO MASSTECH odoo.modules.loading: Loading module snailmail (29/40) 
+2022-10-17 05:56:01,876 5508 INFO MASSTECH odoo.modules.registry: module snailmail: creating or updating database tables 
+2022-10-17 05:56:02,650 5508 INFO MASSTECH odoo.modules.loading: loading snailmail/data/snailmail_data.xml 
+2022-10-17 05:56:02,695 5508 INFO MASSTECH odoo.modules.loading: loading snailmail/views/report_assets.xml 
+2022-10-17 05:56:02,716 5508 INFO MASSTECH odoo.modules.loading: loading snailmail/views/snailmail_views.xml 
+2022-10-17 05:56:02,753 5508 INFO MASSTECH odoo.modules.loading: loading snailmail/wizard/snailmail_confirm_views.xml 
+2022-10-17 05:56:02,762 5508 INFO MASSTECH odoo.modules.loading: loading snailmail/wizard/snailmail_letter_cancel_views.xml 
+2022-10-17 05:56:02,775 5508 INFO MASSTECH odoo.modules.loading: loading snailmail/wizard/snailmail_letter_format_error_views.xml 
+2022-10-17 05:56:02,788 5508 INFO MASSTECH odoo.modules.loading: loading snailmail/wizard/snailmail_letter_missing_required_fields_views.xml 
+2022-10-17 05:56:02,811 5508 INFO MASSTECH odoo.modules.loading: loading snailmail/security/ir.model.access.csv 
+2022-10-17 05:56:02,868 5508 INFO MASSTECH odoo.modules.loading: Module snailmail loaded in 1.32s, 376 queries 
+2022-10-17 05:56:02,868 5508 INFO MASSTECH odoo.modules.loading: Loading module auth_totp_portal (30/40) 
+2022-10-17 05:56:03,049 5508 INFO MASSTECH odoo.modules.registry: module auth_totp_portal: creating or updating database tables 
+2022-10-17 05:56:03,088 5508 INFO MASSTECH odoo.modules.loading: loading auth_totp_portal/security/security.xml 
+2022-10-17 05:56:03,146 5508 INFO MASSTECH odoo.modules.loading: loading auth_totp_portal/views/templates.xml 
+2022-10-17 05:56:03,183 5508 INFO MASSTECH odoo.modules.loading: Module auth_totp_portal loaded in 0.31s, 75 queries 
+2022-10-17 05:56:03,183 5508 INFO MASSTECH odoo.modules.loading: Loading module digest (31/40) 
+2022-10-17 05:56:03,419 5508 INFO MASSTECH odoo.modules.registry: module digest: creating or updating database tables 
+2022-10-17 05:56:03,978 5508 INFO MASSTECH odoo.modules.loading: loading digest/security/ir.model.access.csv 
+2022-10-17 05:56:03,995 5508 INFO MASSTECH odoo.modules.loading: loading digest/data/digest_data.xml 
+2022-10-17 05:56:04,031 5508 INFO MASSTECH odoo.modules.loading: loading digest/data/digest_tips_data.xml 
+2022-10-17 05:56:04,072 5508 INFO MASSTECH odoo.modules.loading: loading digest/data/ir_cron_data.xml 
+2022-10-17 05:56:04,086 5508 INFO MASSTECH odoo.modules.loading: loading digest/data/res_config_settings_data.xml 
+2022-10-17 05:56:04,095 5508 INFO MASSTECH odoo.modules.loading: loading digest/views/digest_views.xml 
+2022-10-17 05:56:04,173 5508 INFO MASSTECH odoo.modules.loading: loading digest/views/digest_templates.xml 
+2022-10-17 05:56:04,193 5508 INFO MASSTECH odoo.modules.loading: loading digest/views/res_config_settings_views.xml 
+2022-10-17 05:56:04,251 5508 INFO MASSTECH odoo.modules.loading: Module digest loaded in 1.07s, 308 queries 
+2022-10-17 05:56:04,251 5508 INFO MASSTECH odoo.modules.loading: Loading module account (32/40) 
+2022-10-17 05:56:05,706 5508 INFO MASSTECH odoo.modules.registry: module account: creating or updating database tables 
+2022-10-17 05:56:19,837 5508 INFO MASSTECH odoo.models: Storing computed values of res.company.invoice_terms_html 
+2022-10-17 05:56:19,838 5508 INFO MASSTECH odoo.models: Storing computed values of res.company.account_fiscal_country_id 
+2022-10-17 05:56:24,976 5508 INFO MASSTECH odoo.modules.loading: loading account/security/account_security.xml 
+2022-10-17 05:56:25,371 5508 INFO MASSTECH odoo.modules.loading: loading account/security/ir.model.access.csv 
+2022-10-17 05:56:25,601 5508 INFO MASSTECH odoo.modules.loading: loading account/data/data_account_type.xml 
+2022-10-17 05:56:25,655 5508 INFO MASSTECH odoo.modules.loading: loading account/data/account_data.xml 
+2022-10-17 05:56:25,767 5508 INFO MASSTECH odoo.modules.loading: loading account/data/digest_data.xml 
+2022-10-17 05:56:25,787 5508 INFO MASSTECH odoo.modules.loading: loading account/views/account_report.xml 
+2022-10-17 05:56:25,822 5508 INFO MASSTECH odoo.modules.loading: loading account/data/mail_template_data.xml 
+2022-10-17 05:56:25,840 5508 INFO MASSTECH odoo.modules.loading: loading account/views/account_payment_view.xml 
+2022-10-17 05:56:25,951 5508 INFO MASSTECH odoo.modules.loading: loading account/wizard/account_automatic_entry_wizard_views.xml 
+2022-10-17 05:56:25,981 5508 INFO MASSTECH odoo.modules.loading: loading account/wizard/account_unreconcile_view.xml 
+2022-10-17 05:56:26,009 5508 INFO MASSTECH odoo.modules.loading: loading account/wizard/account_move_reversal_view.xml 
+2022-10-17 05:56:26,031 5508 INFO MASSTECH odoo.modules.loading: loading account/wizard/account_resequence_views.xml 
+2022-10-17 05:56:26,048 5508 INFO MASSTECH odoo.modules.loading: loading account/wizard/account_payment_register_views.xml 
+2022-10-17 05:56:26,071 5508 INFO MASSTECH odoo.modules.loading: loading account/views/account_move_views.xml 
+2022-10-17 05:56:26,448 5508 INFO MASSTECH odoo.modules.loading: loading account/wizard/setup_wizards_view.xml 
+2022-10-17 05:56:26,488 5508 INFO MASSTECH odoo.modules.loading: loading account/wizard/pos_box.xml 
+2022-10-17 05:56:26,509 5508 INFO MASSTECH odoo.modules.loading: loading account/views/account_account_type_views.xml 
+2022-10-17 05:56:26,547 5508 INFO MASSTECH odoo.modules.loading: loading account/views/account_account_views.xml 
+2022-10-17 05:56:26,600 5508 INFO MASSTECH odoo.modules.loading: loading account/views/account_group_views.xml 
+2022-10-17 05:56:26,637 5508 INFO MASSTECH odoo.modules.loading: loading account/views/account_journal_views.xml 
+2022-10-17 05:56:26,700 5508 INFO MASSTECH odoo.modules.loading: loading account/views/account_account_tag_views.xml 
+2022-10-17 05:56:26,732 5508 INFO MASSTECH odoo.modules.loading: loading account/views/account_bank_statement_views.xml 
+2022-10-17 05:56:26,850 5508 INFO MASSTECH odoo.modules.loading: loading account/views/account_reconcile_model_views.xml 
+2022-10-17 05:56:26,895 5508 INFO MASSTECH odoo.modules.loading: loading account/views/account_tax_views.xml 
+2022-10-17 05:56:26,972 5508 INFO MASSTECH odoo.modules.loading: loading account/views/account_full_reconcile_views.xml 
+2022-10-17 05:56:26,991 5508 INFO MASSTECH odoo.modules.loading: loading account/views/account_payment_term_views.xml 
+2022-10-17 05:56:27,038 5508 INFO MASSTECH odoo.modules.loading: loading account/views/account_chart_template_views.xml 
+2022-10-17 05:56:27,126 5508 INFO MASSTECH odoo.modules.loading: loading account/views/res_partner_bank_views.xml 
+2022-10-17 05:56:27,158 5508 INFO MASSTECH odoo.modules.loading: loading account/views/report_statement.xml 
+2022-10-17 05:56:27,179 5508 INFO MASSTECH odoo.modules.loading: loading account/views/terms_template.xml 
+2022-10-17 05:56:27,213 5508 INFO MASSTECH odoo.modules.loading: loading account/wizard/account_validate_move_view.xml 
+2022-10-17 05:56:27,249 5508 INFO MASSTECH odoo.modules.loading: loading account/views/res_company_views.xml 
+2022-10-17 05:56:27,291 5508 INFO MASSTECH odoo.modules.loading: loading account/views/product_view.xml 
+2022-10-17 05:56:27,333 5508 INFO MASSTECH odoo.modules.loading: loading account/views/account_analytic_view.xml 
+2022-10-17 05:56:27,393 5508 INFO MASSTECH odoo.modules.loading: loading account/views/report_invoice.xml 
+2022-10-17 05:56:27,470 5508 INFO MASSTECH odoo.modules.loading: loading account/report/account_invoice_report_view.xml 
+2022-10-17 05:56:27,561 5508 INFO MASSTECH odoo.modules.loading: loading account/views/account_cash_rounding_view.xml 
+2022-10-17 05:56:27,604 5508 INFO MASSTECH odoo.modules.loading: loading account/wizard/account_report_common_view.xml 
+2022-10-17 05:56:27,625 5508 INFO MASSTECH odoo.modules.loading: loading account/views/report_journal.xml 
+2022-10-17 05:56:27,635 5508 INFO MASSTECH odoo.modules.loading: loading account/views/tax_adjustments.xml 
+2022-10-17 05:56:27,641 5508 INFO MASSTECH odoo.modules.loading: loading account/wizard/wizard_tax_adjustments_view.xml 
+2022-10-17 05:56:27,682 5508 INFO MASSTECH odoo.modules.loading: loading account/views/ir_module_views.xml 
+2022-10-17 05:56:27,709 5508 INFO MASSTECH odoo.modules.loading: loading account/views/res_config_settings_views.xml 
+2022-10-17 05:56:27,799 5508 INFO MASSTECH odoo.modules.loading: loading account/views/partner_view.xml 
+2022-10-17 05:56:27,908 5508 INFO MASSTECH odoo.modules.loading: loading account/views/account_journal_dashboard_view.xml 
+2022-10-17 05:56:27,952 5508 INFO MASSTECH odoo.modules.loading: loading account/views/account_portal_templates.xml 
+2022-10-17 05:56:28,008 5508 INFO MASSTECH odoo.modules.loading: loading account/views/report_payment_receipt_templates.xml 
+2022-10-17 05:56:28,022 5508 INFO MASSTECH odoo.modules.loading: loading account/views/account_onboarding_templates.xml 
+2022-10-17 05:56:28,094 5508 INFO MASSTECH odoo.modules.loading: loading account/data/service_cron.xml 
+2022-10-17 05:56:28,121 5508 INFO MASSTECH odoo.modules.loading: loading account/views/account_incoterms_view.xml 
+2022-10-17 05:56:28,150 5508 INFO MASSTECH odoo.modules.loading: loading account/data/account_incoterms_data.xml 
+2022-10-17 05:56:28,185 5508 INFO MASSTECH odoo.modules.loading: loading account/views/digest_views.xml 
+2022-10-17 05:56:28,202 5508 INFO MASSTECH odoo.modules.loading: loading account/wizard/account_invoice_send_views.xml 
+2022-10-17 05:56:28,236 5508 INFO MASSTECH odoo.modules.loading: loading account/views/account_tax_report_views.xml 
+2022-10-17 05:56:28,298 5508 INFO MASSTECH odoo.modules.loading: loading account/report/account_hash_integrity_templates.xml 
+2022-10-17 05:56:28,317 5508 INFO MASSTECH odoo.modules.loading: loading account/views/res_currency.xml 
+2022-10-17 05:56:28,343 5508 INFO MASSTECH odoo.modules.loading: loading account/views/account_menuitem.xml 
+2022-10-17 05:56:28,698 5508 INFO MASSTECH odoo.modules.loading: loading account/views/account_analytic_default_view.xml 
+2022-10-17 05:56:28,750 5508 INFO MASSTECH odoo.modules.loading: loading account/wizard/account_tour_upload_bill.xml 
+2022-10-17 05:56:28,777 5508 INFO MASSTECH odoo.modules.loading: loading account/wizard/accrued_orders.xml 
+2022-10-17 05:56:28,792 5508 INFO MASSTECH odoo.modules.loading: loading account/views/bill_preview_template.xml 
+2022-10-17 05:56:28,822 5508 INFO MASSTECH odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['VAT Number Validation', 'Ethiopia - Accounting'] to user __system__ #1 via 127.0.0.1 
+2022-10-17 05:56:28,994 5508 INFO MASSTECH odoo.modules.loading: Module account loaded in 24.74s, 6551 queries 
+2022-10-17 05:56:28,995 5508 INFO MASSTECH odoo.modules.loading: Loading module account_edi (33/40) 
+2022-10-17 05:56:29,402 5508 INFO MASSTECH odoo.modules.registry: module account_edi: creating or updating database tables 
+2022-10-17 05:56:30,340 5508 INFO MASSTECH odoo.modules.loading: loading account_edi/security/ir.model.access.csv 
+2022-10-17 05:56:30,358 5508 INFO MASSTECH odoo.modules.loading: loading account_edi/views/account_edi_document_views.xml 
+2022-10-17 05:56:30,390 5508 INFO MASSTECH odoo.modules.loading: loading account_edi/views/account_move_views.xml 
+2022-10-17 05:56:30,476 5508 INFO MASSTECH odoo.modules.loading: loading account_edi/views/account_payment_views.xml 
+2022-10-17 05:56:30,502 5508 INFO MASSTECH odoo.modules.loading: loading account_edi/views/account_journal_views.xml 
+2022-10-17 05:56:30,525 5508 INFO MASSTECH odoo.modules.loading: loading account_edi/data/cron.xml 
+2022-10-17 05:56:30,560 5508 INFO MASSTECH odoo.modules.loading: Module account_edi loaded in 1.56s, 315 queries 
+2022-10-17 05:56:30,560 5508 INFO MASSTECH odoo.modules.loading: Loading module payment (34/40) 
+2022-10-17 05:56:31,097 5508 INFO MASSTECH odoo.modules.registry: module payment: creating or updating database tables 
+2022-10-17 05:56:33,291 5508 INFO MASSTECH odoo.modules.loading: loading payment/data/payment_icon_data.xml 
+2022-10-17 05:56:33,762 5508 INFO MASSTECH odoo.modules.loading: loading payment/data/payment_acquirer_data.xml 
+2022-10-17 05:56:34,280 5508 INFO MASSTECH odoo.modules.loading: loading payment/data/payment_cron.xml 
+2022-10-17 05:56:34,292 5508 INFO MASSTECH odoo.modules.loading: loading payment/views/payment_portal_templates.xml 
+2022-10-17 05:56:34,441 5508 INFO MASSTECH odoo.modules.loading: loading payment/views/payment_templates.xml 
+2022-10-17 05:56:34,494 5508 INFO MASSTECH odoo.modules.loading: loading payment/views/account_invoice_views.xml 
+2022-10-17 05:56:34,535 5508 INFO MASSTECH odoo.modules.loading: loading payment/views/account_journal_views.xml 
+2022-10-17 05:56:34,562 5508 INFO MASSTECH odoo.modules.loading: loading payment/views/account_payment_views.xml 
+2022-10-17 05:56:34,592 5508 INFO MASSTECH odoo.modules.loading: loading payment/views/payment_acquirer_views.xml 
+2022-10-17 05:56:34,648 5508 INFO MASSTECH odoo.modules.loading: loading payment/views/payment_icon_views.xml 
+2022-10-17 05:56:34,674 5508 INFO MASSTECH odoo.modules.loading: loading payment/views/payment_transaction_views.xml 
+2022-10-17 05:56:34,729 5508 INFO MASSTECH odoo.modules.loading: loading payment/views/payment_token_views.xml 
+2022-10-17 05:56:34,775 5508 INFO MASSTECH odoo.modules.loading: loading payment/views/res_partner_views.xml 
+2022-10-17 05:56:34,795 5508 INFO MASSTECH odoo.modules.loading: loading payment/security/ir.model.access.csv 
+2022-10-17 05:56:34,970 5508 INFO MASSTECH odoo.modules.loading: loading payment/security/payment_security.xml 
+2022-10-17 05:56:35,024 5508 INFO MASSTECH odoo.modules.loading: loading payment/wizards/account_payment_register_views.xml 
+2022-10-17 05:56:35,037 5508 INFO MASSTECH odoo.modules.loading: loading payment/wizards/payment_acquirer_onboarding_templates.xml 
+2022-10-17 05:56:35,056 5508 INFO MASSTECH odoo.modules.loading: loading payment/wizards/payment_link_wizard_views.xml 
+2022-10-17 05:56:35,069 5508 INFO MASSTECH odoo.modules.loading: loading payment/wizards/payment_refund_wizard_views.xml 
+2022-10-17 05:56:35,121 5508 INFO MASSTECH odoo.modules.loading: Module payment loaded in 4.56s, 1087 queries 
+2022-10-17 05:56:35,121 5508 INFO MASSTECH odoo.modules.loading: Loading module snailmail_account (35/40) 
+2022-10-17 05:56:35,525 5508 INFO MASSTECH odoo.modules.registry: module snailmail_account: creating or updating database tables 
+2022-10-17 05:56:35,994 5508 INFO MASSTECH odoo.modules.loading: loading snailmail_account/views/res_config_settings_views.xml 
+2022-10-17 05:56:36,044 5508 INFO MASSTECH odoo.modules.loading: loading snailmail_account/wizard/account_invoice_send_views.xml 
+2022-10-17 05:56:36,067 5508 INFO MASSTECH odoo.modules.loading: loading snailmail_account/security/ir.model.access.csv 
+2022-10-17 05:56:36,095 5508 INFO MASSTECH odoo.modules.loading: Module snailmail_account loaded in 0.97s, 124 queries 
+2022-10-17 05:56:36,095 5508 INFO MASSTECH odoo.modules.loading: Loading module account_edi_facturx (36/40) 
+2022-10-17 05:56:36,543 5508 INFO MASSTECH odoo.modules.registry: module account_edi_facturx: creating or updating database tables 
+2022-10-17 05:56:36,587 5508 INFO MASSTECH odoo.modules.loading: loading account_edi_facturx/data/account_edi_data.xml 
+2022-10-17 05:56:36,716 5508 INFO MASSTECH odoo.modules.loading: loading account_edi_facturx/data/facturx_templates.xml 
+2022-10-17 05:56:36,766 5508 INFO MASSTECH odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['Import/Export electronic invoices with UBL/CII'] to user __system__ #1 via 127.0.0.1 
+2022-10-17 05:56:36,838 5508 INFO MASSTECH odoo.modules.loading: Module account_edi_facturx loaded in 0.74s, 98 queries 
+2022-10-17 05:56:36,838 5508 INFO MASSTECH odoo.modules.loading: Loading module payment_transfer (37/40) 
+2022-10-17 05:56:37,235 5508 INFO MASSTECH odoo.modules.registry: module payment_transfer: creating or updating database tables 
+2022-10-17 05:56:37,417 5508 INFO MASSTECH odoo.modules.loading: loading payment_transfer/views/payment_views.xml 
+2022-10-17 05:56:37,450 5508 INFO MASSTECH odoo.modules.loading: loading payment_transfer/views/payment_transfer_templates.xml 
+2022-10-17 05:56:37,466 5508 INFO MASSTECH odoo.modules.loading: loading payment_transfer/data/payment_acquirer_data.xml 
+2022-10-17 05:56:37,521 5508 INFO MASSTECH odoo.modules.loading: Module payment_transfer loaded in 0.68s, 108 queries 
+2022-10-17 05:56:37,521 5508 INFO MASSTECH odoo.modules.loading: Loading module sale (38/40) 
+2022-10-17 05:56:38,230 5508 INFO MASSTECH odoo.modules.registry: module sale: creating or updating database tables 
+2022-10-17 05:56:41,403 5508 INFO MASSTECH odoo.modules.loading: loading sale/security/sale_security.xml 
+2022-10-17 05:56:41,678 5508 INFO MASSTECH odoo.modules.loading: loading sale/security/ir.model.access.csv 
+2022-10-17 05:56:41,777 5508 INFO MASSTECH odoo.modules.loading: loading sale/report/sale_report.xml 
+2022-10-17 05:56:41,802 5508 INFO MASSTECH odoo.modules.loading: loading sale/report/sale_report_views.xml 
+2022-10-17 05:56:41,833 5508 INFO MASSTECH odoo.modules.loading: loading sale/report/sale_report_templates.xml 
+2022-10-17 05:56:41,853 5508 INFO MASSTECH odoo.modules.loading: loading sale/report/invoice_report_templates.xml 
+2022-10-17 05:56:41,871 5508 INFO MASSTECH odoo.modules.loading: loading sale/report/report_all_channels_sales_views.xml 
+2022-10-17 05:56:41,877 5508 INFO MASSTECH odoo.modules.loading: loading sale/data/ir_sequence_data.xml 
+2022-10-17 05:56:41,885 5508 INFO MASSTECH odoo.modules.loading: loading sale/data/mail_data_various.xml 
+2022-10-17 05:56:41,920 5508 INFO MASSTECH odoo.modules.loading: loading sale/data/mail_template_data.xml 
+2022-10-17 05:56:41,933 5508 INFO MASSTECH odoo.modules.loading: loading sale/data/mail_templates.xml 
+2022-10-17 05:56:41,945 5508 INFO MASSTECH odoo.modules.loading: loading sale/data/sale_data.xml 
+2022-10-17 05:56:41,965 5508 INFO MASSTECH odoo.modules.loading: loading sale/wizard/sale_make_invoice_advance_views.xml 
+2022-10-17 05:56:41,987 5508 INFO MASSTECH odoo.modules.loading: loading sale/views/sale_views.xml 
+2022-10-17 05:56:42,569 5508 INFO MASSTECH odoo.modules.loading: loading sale/views/crm_team_views.xml 
+2022-10-17 05:56:42,700 5508 INFO MASSTECH odoo.modules.loading: loading sale/views/res_partner_views.xml 
+2022-10-17 05:56:42,781 5508 INFO MASSTECH odoo.modules.loading: loading sale/views/mail_activity_views.xml 
+2022-10-17 05:56:42,809 5508 INFO MASSTECH odoo.modules.loading: loading sale/views/variant_templates.xml 
+2022-10-17 05:56:42,830 5508 INFO MASSTECH odoo.modules.loading: loading sale/views/sale_portal_templates.xml 
+2022-10-17 05:56:42,909 5508 INFO MASSTECH odoo.modules.loading: loading sale/views/sale_onboarding_views.xml 
+2022-10-17 05:56:42,953 5508 INFO MASSTECH odoo.modules.loading: loading sale/views/res_config_settings_views.xml 
+2022-10-17 05:56:43,025 5508 INFO MASSTECH odoo.modules.loading: loading sale/views/payment_templates.xml 
+2022-10-17 05:56:43,067 5508 INFO MASSTECH odoo.modules.loading: loading sale/views/payment_views.xml 
+2022-10-17 05:56:43,093 5508 INFO MASSTECH odoo.modules.loading: loading sale/views/product_views.xml 
+2022-10-17 05:56:43,107 5508 INFO MASSTECH odoo.modules.loading: loading sale/views/product_packaging_views.xml 
+2022-10-17 05:56:43,126 5508 INFO MASSTECH odoo.modules.loading: loading sale/views/utm_campaign_views.xml 
+2022-10-17 05:56:43,157 5508 INFO MASSTECH odoo.modules.loading: loading sale/wizard/sale_order_cancel_views.xml 
+2022-10-17 05:56:43,166 5508 INFO MASSTECH odoo.modules.loading: loading sale/wizard/sale_payment_link_views.xml 
+2022-10-17 05:56:43,221 5508 INFO MASSTECH odoo.modules.loading: Module sale loaded in 5.70s, 2414 queries 
+2022-10-17 05:56:43,221 5508 INFO MASSTECH odoo.modules.loading: Loading module sale_management (39/40) 
+2022-10-17 05:56:43,604 5508 INFO MASSTECH odoo.modules.registry: module sale_management: creating or updating database tables 
+2022-10-17 05:56:45,202 5508 INFO MASSTECH odoo.modules.loading: loading sale_management/security/sale_management_security.xml 
+2022-10-17 05:56:45,252 5508 INFO MASSTECH odoo.modules.loading: loading sale_management/data/digest_data.xml 
+2022-10-17 05:56:45,298 5508 INFO MASSTECH odoo.modules.loading: loading sale_management/views/sale_portal_templates.xml 
+2022-10-17 05:56:45,392 5508 INFO MASSTECH odoo.modules.loading: loading sale_management/views/sale_order_template_views.xml 
+2022-10-17 05:56:45,453 5508 INFO MASSTECH odoo.modules.loading: loading sale_management/security/ir.model.access.csv 
+2022-10-17 05:56:45,475 5508 INFO MASSTECH odoo.modules.loading: loading sale_management/views/res_config_settings_views.xml 
+2022-10-17 05:56:45,530 5508 INFO MASSTECH odoo.modules.loading: loading sale_management/data/digest_data.xml 
+2022-10-17 05:56:45,547 5508 INFO MASSTECH odoo.modules.loading: loading sale_management/views/sale_management_views.xml 
+2022-10-17 05:56:45,673 5508 INFO MASSTECH odoo.modules.loading: loading sale_management/views/digest_views.xml 
+2022-10-17 05:56:45,696 5508 INFO MASSTECH odoo.modules.loading: loading sale_management/views/sale_order_views.xml 
+2022-10-17 05:56:45,732 5508 INFO MASSTECH odoo.modules.loading: loading sale_management/report/sale_report_templates.xml 
+2022-10-17 05:56:45,783 5508 INFO MASSTECH odoo.modules.loading: Module sale_management loaded in 2.56s, 576 queries 
+2022-10-17 05:56:45,783 5508 INFO MASSTECH odoo.modules.loading: Loading module sale_sms (40/40) 
+2022-10-17 05:56:46,108 5508 INFO MASSTECH odoo.modules.loading: loading sale_sms/security/ir.model.access.csv 
+2022-10-17 05:56:46,248 5508 INFO MASSTECH odoo.modules.loading: loading sale_sms/security/security.xml 
+2022-10-17 05:56:46,273 5508 INFO MASSTECH odoo.modules.loading: Module sale_sms loaded in 0.49s, 44 queries 
+2022-10-17 05:56:46,273 5508 INFO MASSTECH odoo.modules.loading: 40 modules loaded in 83.06s, 21609 queries (+0 extra) 
+2022-10-17 05:56:46,278 5508 INFO MASSTECH odoo.modules.loading: loading 43 modules... 
+2022-10-17 05:56:46,278 5508 INFO MASSTECH odoo.modules.loading: Loading module base_vat (34/43) 
+2022-10-17 05:56:46,962 5508 INFO MASSTECH odoo.modules.registry: module base_vat: creating or updating database tables 
+2022-10-17 05:56:47,221 5508 INFO MASSTECH odoo.modules.loading: loading base_vat/views/res_company_views.xml 
+2022-10-17 05:56:47,237 5508 INFO MASSTECH odoo.modules.loading: loading base_vat/views/res_partner_views.xml 
+2022-10-17 05:56:47,297 5508 INFO MASSTECH odoo.modules.loading: loading base_vat/views/res_config_settings_views.xml 
+2022-10-17 05:56:47,372 5508 INFO MASSTECH odoo.modules.loading: Module base_vat loaded in 1.09s, 140 queries 
+2022-10-17 05:56:47,372 5508 INFO MASSTECH odoo.modules.loading: Loading module l10n_et (35/43) 
+2022-10-17 05:56:47,776 5508 INFO MASSTECH odoo.modules.loading: loading l10n_et/data/l10n_et_chart_data.xml 
+2022-10-17 05:56:47,983 5508 INFO MASSTECH odoo.modules.loading: loading l10n_et/data/account.account.template.csv 
+2022-10-17 05:56:48,491 5508 INFO MASSTECH odoo.modules.loading: loading l10n_et/data/account_chart_template_data.xml 
+2022-10-17 05:56:48,500 5508 INFO MASSTECH odoo.modules.loading: loading l10n_et/data/account.tax.group.csv 
+2022-10-17 05:56:48,518 5508 INFO MASSTECH odoo.modules.loading: loading l10n_et/data/account_tax_report_data.xml 
+2022-10-17 05:56:48,712 5508 INFO MASSTECH odoo.modules.loading: loading l10n_et/data/account_tax_data.xml 
+2022-10-17 05:56:48,869 5508 INFO MASSTECH odoo.modules.loading: loading l10n_et/data/account_chart_template_configure_data.xml 
+2022-10-17 05:56:50,152 5508 INFO MASSTECH odoo.modules.loading: Module l10n_et loaded in 2.78s, 1998 queries 
+2022-10-17 05:56:50,152 5508 INFO MASSTECH odoo.modules.loading: Loading module account_edi_ubl_cii (39/43) 
+2022-10-17 05:56:51,400 5508 INFO MASSTECH odoo.modules.registry: module account_edi_ubl_cii: creating or updating database tables 
+2022-10-17 05:56:51,640 5508 INFO MASSTECH odoo.modules.loading: loading account_edi_ubl_cii/data/account_edi_data.xml 
+2022-10-17 05:56:51,680 5508 INFO MASSTECH odoo.modules.loading: loading account_edi_ubl_cii/data/cii_22_templates.xml 
+2022-10-17 05:56:51,724 5508 INFO MASSTECH odoo.modules.loading: loading account_edi_ubl_cii/data/ubl_20_templates.xml 
+2022-10-17 05:56:51,780 5508 INFO MASSTECH odoo.modules.loading: loading account_edi_ubl_cii/data/ubl_21_templates.xml 
+2022-10-17 05:56:51,814 5508 INFO MASSTECH odoo.modules.loading: Module account_edi_ubl_cii loaded in 1.66s, 178 queries 
+2022-10-17 05:56:51,815 5508 INFO MASSTECH odoo.modules.loading: 43 modules loaded in 5.54s, 2316 queries (+0 extra) 
+2022-10-17 05:56:52,632 5508 INFO MASSTECH odoo.modules.loading: Modules loaded. 
+2022-10-17 05:56:52,637 5508 INFO MASSTECH odoo.modules.registry: Registry loaded in 90.810s 
+2022-10-17 05:56:52,637 5508 INFO MASSTECH odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2022-10-17 05:56:52,644 5508 INFO MASSTECH odoo.modules.registry: Registry changed, signaling through the database 
+2022-10-17 05:56:52,647 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 05:56:52] "POST /web/dataset/call_button HTTP/1.1" 200 - 25799 56.595 34.536
+2022-10-17 05:56:52,984 5508 INFO MASSTECH odoo.addons.base.models.ir_http: Generating routing map for key None 
+2022-10-17 05:57:07,522 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 05:57:07] "POST /web/dataset/call_kw/ir.module.module/read HTTP/1.1" 200 - 20 0.403 1.194
+2022-10-17 05:57:07,566 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 05:57:07] "POST /web/dataset/call_kw/ir.module.module.dependency/read HTTP/1.1" 200 - 4 0.005 0.009
+2022-10-17 05:57:07,854 5508 INFO MASSTECH odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2022-10-17 05:57:07,856 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 05:57:07] "GET /web HTTP/1.1" 200 - 364 0.303 14.573
+2022-10-17 05:57:07,960 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 05:57:07] "GET /web/assets/83-a140a85/web.assets_common.min.css HTTP/1.1" 200 - 4 0.002 0.009
+2022-10-17 05:57:08,038 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 05:57:08] "GET /web/assets/84-a8848e6/web.assets_backend.min.css HTTP/1.1" 200 - 2 0.002 0.025
+2022-10-17 05:57:08,072 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 05:57:08] "GET /web/assets/85-a140a85/web.assets_common.min.js HTTP/1.1" 200 - 2 0.001 0.034
+2022-10-17 05:57:08,244 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 05:57:08] "GET /web/assets/86-a8848e6/web.assets_backend.min.js HTTP/1.1" 200 - 2 0.003 0.056
+2022-10-17 05:57:08,248 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 05:57:08] "GET /web/assets/87-20bee59/web.assets_backend_prod_only.min.js HTTP/1.1" 200 - 2 0.003 0.060
+2022-10-17 05:57:08,629 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 05:57:08] "GET /web/webclient/load_menus/cc931d91e54a704096f27d8d66eb062fb8cc59de2cb8f9b78bb4649a6a4773fd HTTP/1.1" 200 - 201 0.228 0.215
+2022-10-17 05:57:08,752 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 05:57:08] "GET /web/webclient/qweb/e3d2a6b0e1e305ae9e565e1afdf6ac793340ce3496df7f4e37f1df903aa181d2?bundle=web.assets_qweb HTTP/1.1" 200 - 2 0.003 0.478
+2022-10-17 05:57:09,051 5508 INFO MASSTECH odoo.addons.partner_autocomplete.models.res_company: Starting enrich of company My Company (1) 
+2022-10-17 05:57:09,083 5508 INFO MASSTECH odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2022-10-17 05:57:09,086 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 05:57:09] "POST /web/dataset/call_kw/res.company/iap_enrich_auto HTTP/1.1" 200 - 17 0.034 0.036
+2022-10-17 05:57:09,364 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 05:57:09] "POST /mail/init_messaging HTTP/1.1" 200 - 76 0.076 0.069
+2022-10-17 05:57:09,366 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 05:57:09] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 2 0.004 0.030
+2022-10-17 05:57:09,409 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 05:57:09] "POST /web/action/load HTTP/1.1" 200 - 8 0.029 0.027
+2022-10-17 05:57:09,411 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 05:57:09] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 5 0.020 0.032
+2022-10-17 05:57:09,413 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 05:57:09] "POST /longpolling/poll HTTP/1.1" 200 - 17 0.041 0.036
+2022-10-17 05:57:09,737 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 05:57:09] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.008 0.018
+2022-10-17 05:57:09,738 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 05:57:09] "POST /mail/load_message_failures HTTP/1.1" 200 - 3 0.013 0.013
+2022-10-17 05:57:09,762 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 05:57:09] "POST /mail/inbox/messages HTTP/1.1" 200 - 8 0.007 0.012
+2022-10-17 05:57:09,820 5508 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2022-10-17 05:57:09,822 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 05:57:09] "GET /web/image/mail.channel/1/avatar_128?unique=2890f3cfd515372cdc74b17e8e83821a57604a27d5a31ca75fcb2db0ac7cf2d4d10eee0a27dfb8b758c87ba4c8ad68655e0e54ecfae435ea1f648ea7228938ff HTTP/1.1" 200 - 3 0.004 0.011
+2022-10-17 05:57:10,320 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 05:57:10] "POST /longpolling/poll HTTP/1.1" 200 - 13 0.023 0.508
+2022-10-17 05:57:10,322 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 05:57:10] "POST /web/dataset/call_kw/mail.channel/init_odoobot HTTP/1.1" 200 - 73 0.095 0.515
+2022-10-17 05:57:10,675 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 05:57:10] "GET /web/image/res.partner/2/avatar_128 HTTP/1.1" 200 - 7 0.009 0.018
+2022-10-17 05:57:11,176 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:57:11] "GET /web_tour/static/src/xml/tip.xml HTTP/1.1" 200 - - - -
+2022-10-17 05:57:14,584 5508 INFO MASSTECH odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2022-10-17 05:57:14,587 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 05:57:14] "POST /web/dataset/call_kw/res.company/iap_enrich_auto HTTP/1.1" 200 - 15 0.027 0.023
+2022-10-17 05:57:15,042 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 05:57:15] "POST /web/action/load HTTP/1.1" 200 - 31 0.027 0.025
+2022-10-17 05:57:15,127 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 05:57:15] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 2 0.005 0.018
+2022-10-17 05:57:15,178 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 05:57:15] "POST /mail/init_messaging HTTP/1.1" 200 - 70 0.073 0.067
+2022-10-17 05:57:15,259 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 05:57:15] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 - 63 0.068 0.069
+2022-10-17 05:57:15,273 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 05:57:15] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.010
+2022-10-17 05:57:15,393 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 05:57:15] "POST /mail/load_message_failures HTTP/1.1" 200 - 3 0.007 0.016
+2022-10-17 05:57:15,541 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 05:57:15] "POST /web/dataset/call_kw/mail.channel/init_odoobot HTTP/1.1" 200 - 2 0.003 0.026
+2022-10-17 05:57:15,606 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 05:57:15] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 5 0.004 0.017
+2022-10-17 05:57:15,610 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 05:57:15] "POST /web/dataset/call_kw/ir.module.module/read HTTP/1.1" 200 - 18 0.041 0.053
+2022-10-17 05:57:15,966 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 05:57:15] "POST /web/dataset/call_kw/ir.module.module.dependency/read HTTP/1.1" 200 - 4 0.013 0.022
+2022-10-17 05:57:16,352 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:57:16] "GET /base/static/src/css/description.css HTTP/1.1" 200 - - - -
+2022-10-17 05:57:16,397 5508 INFO ? werkzeug: 127.0.0.1 - - [17/Oct/2022 05:57:16] "GET /web/static/img/form_sheetbg.png HTTP/1.1" 200 - - - -
+2022-10-17 05:57:16,415 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 05:57:16] "GET /web/image?model=ir.module.module&id=449&field=icon_image&unique=10172022085645 HTTP/1.1" 200 - 3 0.012 0.019
+2022-10-17 05:57:19,702 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 05:57:19] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 41 0.023 0.027
+2022-10-17 05:57:20,028 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 05:57:20] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.005 0.011
+2022-10-17 05:58:00,675 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 05:58:00] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.015 50.013
+2022-10-17 05:58:05,158 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 05:58:05] "POST /longpolling/poll HTTP/1.1" 200 - 13 0.024 50.024
+2022-10-17 05:58:05,787 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 05:58:05] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.016 0.016
+2022-10-17 05:58:55,564 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 05:58:55] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.077
+2022-10-17 05:58:56,823 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 05:58:56] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.016 0.016
+2022-10-17 05:59:45,645 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 05:59:45] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.016 50.050
+2022-10-17 05:59:47,504 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 05:59:47] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.015
+2022-10-17 06:00:36,015 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 06:00:36] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.008 50.035
+2022-10-17 06:00:38,529 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 06:00:38] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.008 0.029
+2022-10-17 06:01:26,384 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 06:01:26] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.015 50.029
+2022-10-17 06:01:29,529 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 06:01:29] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.006 0.028
+2022-10-17 06:02:16,752 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 06:02:16] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.012 50.029
+2022-10-17 06:02:20,521 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 06:02:20] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.007 0.030
+2022-10-17 06:03:07,114 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 06:03:07] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.008 50.029
+2022-10-17 06:03:11,525 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 06:03:11] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.007 0.029
+2022-10-17 06:03:57,529 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 06:03:57] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.009 50.081
+2022-10-17 06:04:02,501 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 06:04:02] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.002 0.014
+2022-10-17 06:04:47,890 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 06:04:47] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.012 50.035
+2022-10-17 06:04:53,521 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 06:04:53] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.007 0.022
+2022-10-17 06:05:38,246 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 06:05:38] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.011 50.033
+2022-10-17 06:05:44,500 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 06:05:44] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.011
+2022-10-17 06:06:28,602 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 06:06:28] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.010 50.021
+2022-10-17 06:06:35,504 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 06:06:35] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.013
+2022-10-17 06:07:18,951 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 06:07:18] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.005 50.033
+2022-10-17 06:07:26,494 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 06:07:26] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.001 0.011
+2022-10-17 06:08:09,313 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 06:08:09] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.008 50.026
+2022-10-17 06:08:17,515 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 06:08:17] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.016
+2022-10-17 06:08:59,659 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 06:08:59] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.008 50.018
+2022-10-17 06:09:08,501 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 06:09:08] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.005 0.015
+2022-10-17 06:09:50,026 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 06:09:50] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.008 50.034
+2022-10-17 06:09:59,535 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 06:09:59] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.006 0.032
+2022-10-17 06:10:40,398 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 06:10:40] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.009 50.044
+2022-10-17 06:10:50,514 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 06:10:50] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.005 0.016
+2022-10-17 06:11:30,754 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 06:11:30] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.013 50.030
+2022-10-17 06:11:41,503 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 06:11:41] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.012
+2022-10-17 06:12:21,099 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 06:12:21] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.007 50.027
+2022-10-17 06:12:32,534 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 06:12:32] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.007 0.029
+2022-10-17 06:13:11,438 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 06:13:11] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.011 50.017
+2022-10-17 06:13:23,511 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 06:13:23] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.005 0.017
+2022-10-17 06:14:01,782 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 06:14:01] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.005 50.027
+2022-10-17 06:14:14,527 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 06:14:14] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.007 0.025
+2022-10-17 06:14:52,162 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 06:14:52] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.013 50.041
+2022-10-17 06:15:05,505 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 06:15:05] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.012
+2022-10-17 06:15:42,503 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 06:15:42] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.009 50.022
+2022-10-17 06:15:56,517 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 06:15:56] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.005 0.020
+2022-10-17 06:16:32,918 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 06:16:32] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.011 50.075
+2022-10-17 06:16:47,510 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 06:16:47] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.011
+2022-10-17 06:17:23,287 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 06:17:23] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.008 50.037
+2022-10-17 06:17:24,802 5508 INFO ? odoo.service.server: Initiating shutdown 
+2022-10-17 06:17:24,802 5508 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2022-10-17 06:17:24,905 5508 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 06:17:24] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.016 1.281
+2022-10-17 06:17:25,899 5508 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 7 connections  
+2022-10-17 06:36:58,223 3500 INFO ? odoo: Odoo version 15.0-20221015 
+2022-10-17 06:36:58,223 3500 INFO ? odoo: Using configuration file at C:\odoo 15(2)\server\odoo.conf 
+2022-10-17 06:36:58,223 3500 INFO ? odoo: addons paths: ['C:\\odoo 15(2)\\server\\odoo\\addons', 'c:\\users\\mass tech trading\\appdata\\local\\openerp s.a\\odoo\\addons\\15.0', 'c:\\odoo 15(2)\\server\\odoo\\addons'] 
+2022-10-17 06:36:58,223 3500 INFO ? odoo: database: openpg@localhost:5432 
+2022-10-17 06:36:59,139 3500 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\odoo 15(2)\thirdparty\wkhtmltopdf.exe 
+2022-10-17 06:37:01,281 3500 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-UNORBPA:8069 
+2022-10-17 06:37:43,188 3500 INFO ? odoo.http: HTTP Configuring static files 
+2022-10-17 06:37:43,300 3500 INFO MASSTECH odoo.modules.loading: loading 1 modules... 
+2022-10-17 06:37:43,316 3500 INFO MASSTECH odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries (+0 extra) 
+2022-10-17 06:37:43,384 3500 INFO MASSTECH odoo.modules.loading: loading 43 modules... 
+2022-10-17 06:37:44,359 3500 INFO MASSTECH odoo.modules.loading: 43 modules loaded in 0.97s, 0 queries (+0 extra) 
+2022-10-17 06:37:44,565 3500 INFO MASSTECH odoo.modules.loading: Modules loaded. 
+2022-10-17 06:37:44,572 3500 INFO MASSTECH odoo.modules.registry: Registry loaded in 1.351s 
+2022-10-17 06:37:44,572 3500 INFO MASSTECH odoo.addons.base.models.ir_http: Generating routing map for key None 
+2022-10-17 06:37:46,341 3500 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 06:37:46] "GET /web HTTP/1.1" 200 - 291 0.194 2.929
+2022-10-17 06:37:47,159 3500 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 06:37:47] "POST /web/action/load HTTP/1.1" 200 - 28 0.030 0.247
+2022-10-17 06:37:47,269 3500 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 06:37:47] "POST /mail/init_messaging HTTP/1.1" 200 - 69 0.101 0.209
+2022-10-17 06:37:47,348 3500 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 06:37:47] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 2 0.004 0.005
+2022-10-17 06:37:47,396 3500 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2022-10-17 06:37:47,502 3500 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 06:37:47] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 - 58 0.063 0.073
+2022-10-17 06:37:47,664 3500 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 06:37:47] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.006 0.010
+2022-10-17 06:37:47,666 3500 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 06:37:47] "GET /web/image/res.company/1/favicon HTTP/1.1" 200 - 4 0.005 0.014
+2022-10-17 06:37:47,752 3500 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 06:37:47] "POST /mail/load_message_failures HTTP/1.1" 200 - 3 0.005 0.017
+2022-10-17 06:37:47,815 3500 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 06:37:47] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 42 0.044 0.038
+2022-10-17 06:37:47,847 3500 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 06:37:47] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.003 0.009
+2022-10-17 06:37:48,156 3500 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 06:37:48] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 5 0.004 0.018
+2022-10-17 06:38:00,526 3500 INFO MASSTECH odoo.addons.base.models.ir_cron: Starting job `Base: Auto-vacuum internal data`. 
+2022-10-17 06:38:00,614 3500 INFO MASSTECH odoo.addons.base.models.ir_attachment: filestore gc 81 checked, 5 removed 
+2022-10-17 06:38:00,686 3500 INFO MASSTECH odoo.addons.base.models.res_users: GC'd 0 user log entries 
+2022-10-17 06:38:00,735 3500 INFO MASSTECH odoo.addons.auth_totp.models.auth_totp: GC'd 0 totp devices entries 
+2022-10-17 06:38:00,777 3500 INFO MASSTECH odoo.models.unlink: User #1 deleted bus.bus records with IDs: [1, 2, 3, 4, 5, 6, 7, 8] 
+2022-10-17 06:38:01,120 3500 INFO MASSTECH odoo.addons.base.models.ir_cron: Job `Base: Auto-vacuum internal data` done. 
+2022-10-17 06:38:01,140 3500 INFO MASSTECH odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2022-10-17 06:38:01,161 3500 INFO MASSTECH odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2022-10-17 06:38:01,175 3500 INFO MASSTECH odoo.addons.base.models.ir_cron: Starting job `Notification: Delete Notifications older than 6 Month`. 
+2022-10-17 06:38:01,183 3500 INFO MASSTECH odoo.addons.base.models.ir_cron: Job `Notification: Delete Notifications older than 6 Month` done. 
+2022-10-17 06:38:01,197 3500 INFO MASSTECH odoo.addons.base.models.ir_cron: Starting job `Users: Notify About Unregistered Users`. 
+2022-10-17 06:38:01,210 3500 INFO MASSTECH odoo.addons.base.models.ir_cron: Job `Users: Notify About Unregistered Users` done. 
+2022-10-17 06:38:01,226 3500 INFO MASSTECH odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2022-10-17 06:38:01,233 3500 INFO MASSTECH odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2022-10-17 06:38:01,281 3500 INFO MASSTECH odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2022-10-17 06:38:01,292 3500 INFO MASSTECH odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2022-10-17 06:38:01,315 3500 INFO MASSTECH odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2022-10-17 06:38:01,324 3500 INFO MASSTECH odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2022-10-17 06:38:01,341 3500 INFO MASSTECH odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2022-10-17 06:38:01,351 3500 INFO MASSTECH odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2022-10-17 06:38:37,408 3500 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 06:38:37] "POST /longpolling/poll HTTP/1.1" 200 - 13 0.016 50.039
+2022-10-17 06:38:38,545 3500 INFO MASSTECH werkzeug: 127.0.0.1 - - [17/Oct/2022 06:38:38] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.005 0.016

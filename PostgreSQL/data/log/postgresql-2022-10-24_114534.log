@@ -1,0 +1,10 @@
+2022-10-24 11:45:34.972 EAT [6320] LOG:  database system was interrupted; last known up at 2022-10-24 11:04:50 EAT
+2022-10-24 11:51:49.835 EAT [6320] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-10-24 11:51:50.069 EAT [6320] LOG:  redo starts at 0/A5ED490
+2022-10-24 11:51:50.223 EAT [6320] LOG:  invalid record length at 0/A60BA30: wanted 24, got 0
+2022-10-24 11:51:50.226 EAT [6320] LOG:  redo done at 0/A60B9F8
+2022-10-24 11:51:53.068 EAT [6044] LOG:  database system is ready to accept connections
+2022-10-24 11:58:10.169 EAT [13768] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-24 11:58:10.170 EAT [13876] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	

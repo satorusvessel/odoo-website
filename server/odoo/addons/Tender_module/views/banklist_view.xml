@@ -1,0 +1,57 @@
+<odoo>
+	<data>
+		<!-- List View of Banks for Bank  security -->
+		<record id="bank_list_view" model="ir.ui.view">
+			<field name="name">list.for.bank.security</field>
+			<field name="model">banks.list</field>
+			<field name="arch" type="xml">
+				<tree string="List view of Banks">
+					<field name="name" string="Bank Name"/>
+					<field name="bank_street" string="Street"/>
+					<field name="bank_city"/>
+					<field name="bank_contact_number"/>
+					<field name="bank_email_address"/>
+				</tree>
+			</field>
+		</record>
+
+
+		<!-- Form view for Banks list entry -->
+		<record id="tender_bank_security_form_view" model="ir.ui.view">
+			<field name="name">Tender.Bank.Security</field>
+			<field name="model">banks.list</field>
+			<field name="arch" type="xml">
+				<form>
+					<sheet>
+						<group name="group_top">
+							<group name="group_left">
+								<field name="name" string="Bank Name"/>
+								<field name="bank_street" string="Street"/>
+								<field name="bank_city"/>
+								<field name="bank_contact_number"/>
+								<field name="bank_email_address" placeholder="example.123@gmail.com"/>
+							</group>
+						</group>
+					</sheet>
+				</form>
+			</field>
+		</record>
+
+
+		<record id="action_bank_security" model="ir.actions.act_window">
+			<field name="name">Banks List</field>
+			<field name="type">ir.actions.act_window</field>
+			<field name="res_model">banks.list</field>
+			<field name="view_mode">tree,form</field>
+		</record>
+
+		
+		<menuitem
+			id="banks_menu_list"
+			name="Banks List"
+			parent="company_menu_list"
+			action="action_bank_security"
+			sequence="25"
+		/>
+	</data>
+</odoo>

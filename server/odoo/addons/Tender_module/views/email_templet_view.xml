@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data noupdate="1">
+		<record id="req_email_template_id" model="mail.template">
+			<field name="name">Req Email Template</field>
+			<field name="email_from">riyanpappu@greenit.com.np</field>
+			<field name="subject">Request for the MAFS</field>
+			<field name="email_to">${object.vendor_email}</field>
+			<field name="lang">${object.lang}</field>
+			<field name="model_id" ref="Tender_module.model_vendor_product"/>
+			<field name="auto_delete" eval="True"/>
+			<field name="user_signature" eval="True"/>
+			<field name="body_html">
+				<![CDATA[
+				<div>
+					<p>
+						Dear Sirs,<br/><br/>
+						We are Bidding the tender of ${object.tend_company_name.name or ''}<br/>
+						for that purpose we have the following tender requirements:<br/>
+						Name of product is: ${object.prod_name} having<br/>
+						Specification: ${object.specification} and<br/>
+                   		the deadline of submisson is ${object.tend_company_name.subm_date}<br/><br/>
+						So kindly provide us  with the MAF/MAL of the product fulfilling the
+						above requirements.<br/><br/>
+					</p>
+					Regards<br/>
+				</div>]]>
+			</field>
+		</record>
+	</data>
+</odoo>

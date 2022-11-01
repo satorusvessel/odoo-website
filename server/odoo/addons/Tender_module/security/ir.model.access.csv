@@ -1,0 +1,17 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+
+access_ir_config_parameter_system,ir_config_parameter_system,base.model_ir_config_parameter,Tender_module.group_user,1,0,0,0
+access_Tender_module_user,Tender_module.user,model_new_tender,Tender_module.group_user,1,0,0,0
+access_tender_product_user,access.tender.product.user,model_tender_product,Tender_module.group_user,1,0,0,0
+access_catelog_categroy_user,access.catelog.category.user,model_catelog_category,Tender_module.group_user,1,0,0,0
+access_company_list_user,access.company.list.user,model_company_list,Tender_module.group_user,1,0,0,0
+access_banks_list_user,access.banks.list.user,model_banks_list,Tender_module.group_user,1,0,0,0
+access_bank_guarantee_user,access.bank.guarantee.user,model_bank_guarantee,Tender_module.group_user,1,0,0,0
+access_vendor_product_user,access.vendor.product.user,model_vendor_product,Tender_module.group_user,1,0,0,0
+access_Tender_module_manager,Tender_module.manager,model_new_tender,Tender_module.group_manager,1,1,1,1
+access_tender_product_admin,access.tender.product.admin,model_tender_product,Tender_module.group_manager,1,1,1,1
+access_catelog_categroy_manager,access.catelog.category.manager,model_catelog_category,Tender_module.group_manager,1,1,1,1
+access_company_list_manager,access.company.list.manager,model_company_list,Tender_module.group_manager,1,1,1,1
+access_banks_list_manager,access.banks.list.manager,model_banks_list,Tender_module.group_manager,1,1,1,1
+access_bank_guarantee_manager,access.bank.guarantee.manager,model_bank_guarantee,Tender_module.group_manager,1,1,1,1
+access_vendor_product_manager,access.vendor.product.manager,model_vendor_product,Tender_module.group_manager,1,1,1,1

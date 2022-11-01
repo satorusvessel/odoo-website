@@ -1,0 +1,9 @@
+2022-10-24 12:32:57.655 EAT [6244] LOG:  database system was interrupted; last known up at 2022-10-24 12:27:07 EAT
+2022-10-24 12:33:35.981 EAT [6244] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-10-24 12:33:36.135 EAT [6244] LOG:  redo starts at 0/A7D0998
+2022-10-24 12:33:36.153 EAT [6244] LOG:  invalid record length at 0/A7D1580: wanted 24, got 0
+2022-10-24 12:33:36.154 EAT [6244] LOG:  redo done at 0/A7D1548
+2022-10-24 12:33:37.328 EAT [2260] LOG:  database system is ready to accept connections
+2022-10-24 15:37:24.827 EAT [9196] FATAL:  password authentication failed for user "postgres"
+2022-10-24 15:37:24.827 EAT [9196] DETAIL:  Role "postgres" does not exist.
+	Connection matched pg_hba.conf line 86: "host    all             all             ::1/128                 md5"

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data>
+		<!-- LIST VIEW -->
+		<record id="catelog_view_tree" model="ir.ui.view">
+			<field name="name">Catelog.of.category</field>
+			<field name="model">catelog.category</field>
+			<field name="arch" type="xml">
+				<tree>
+				    <field name="name"/>
+				    <field name="specification"/>
+				    <field name="product"/>
+				</tree>
+			</field>
+		</record>
+		<!-- LIST VIEW -->
+
+
+        <!-- FORM VIEW -->
+		<record id="form_view_of_catelog_category" model="ir.ui.view">
+			<field name="name">Category.List</field>
+			<field name="model">catelog.category</field>
+			<field name="arch" type="xml">
+				<form>
+					<sheet>
+						<group name="group_left">
+							<field name="name"/>
+							<field name="product"/>
+						</group>
+						<group name="group_right">
+							<field name="company"/>
+							<field name="specification"/>
+						</group>
+					</sheet>/
+				</form>
+			</field>
+		</record>
+	</data>
+</odoo>

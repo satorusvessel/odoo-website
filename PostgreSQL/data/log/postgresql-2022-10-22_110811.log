@@ -1,0 +1,6 @@
+2022-10-22 11:08:12.011 EAT [6324] LOG:  database system was interrupted; last known up at 2022-10-22 11:04:18 EAT
+2022-10-22 11:09:18.994 EAT [6324] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-10-22 11:09:19.089 EAT [6324] LOG:  redo starts at 0/A44EF90
+2022-10-22 11:09:19.153 EAT [6324] LOG:  invalid record length at 0/A4529F0: wanted 24, got 0
+2022-10-22 11:09:19.155 EAT [6324] LOG:  redo done at 0/A4529C8
+2022-10-22 11:09:19.891 EAT [5808] LOG:  database system is ready to accept connections

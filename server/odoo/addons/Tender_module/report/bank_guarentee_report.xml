@@ -1,0 +1,264 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<odoo>
+	<report id = "action_bank_application_form_report"
+		string = "Bank Application Form"
+		model = "bank.guarantee" report_type = "qweb-pdf"
+		file = "Tender_module.report_bank_guarantee_application_form"
+		name = "Tender_module.report_bank_guarantee_application_form"
+	/>
+	<template id = "report_bank_guarantee_application_form">
+		<t t-call = "web.html_container">
+			<!--<t t-call = "web.external_layout"> -->
+				<div class = "oe_structure"/>
+				<div class = "page" style="font-size: 15pt; font-family:Helvetica,Verdana,Arial,sans,Lucida Grande,Calibri;">
+					<t t-foreach = "docs" t-as = "o">
+						<p style = "text-align:right;">				
+							<t t-if="o.date is False">
+       							No date supplied: <t t-esc="time.strftime('%Y-%m-%d')"/>
+   							</t>
+           					<t t-if="o.date is not False">
+       							Date: <span t-field="o.date"/>
+       						</t>
+						</p>		
+						<p>To,<br/><span t-field = "o.bank_name"/><br/>
+							<span t-field = "o.branch"/> Branch
+						</p>
+						<h3 style = "text-indent:30%;">Application For Bank Guarantee</h3>
+						<div>
+							<p>
+								Please issue a Bank Guarentee on behalf of the Apllicant given the under-mentioned informations:
+							</p>
+						</div>
+						<!--<div class = "row"> -->
+						<style type = "text/css">
+							#field_value {
+								position: absolute;
+								width: 700px;
+								left: 10cm;
+							}
+							#boolean_box {
+								position: absolute;
+								width: 400px;
+								left: 12cm;
+							}
+						</style>
+						<p style = "text-align:left;">
+							1.  Name Of Applicant<span id = "field_value" t-field = "o.parent_id"/><br/><br/>
+							2.  Mailing Address of Applicant
+							 <span id = "field_value">
+							 	<span t-field = "o.add_street"/>,
+							 	<t t-if = "o.add_street2">
+							 		<span t-field = "o.add_street2"/>,
+							 	</t>
+							 	<span t-field = "o.add_city"/>/
+							 	<span t-field = "o.add_phone"/>
+							 </span><br/>
+							 <span>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;</span>and Telephone Nos.<br/><br/>
+							3.  Name of Beneficiary<span id = "field_value" t-field = "o.tender_id"/><br/><br/>
+							4.  Mailing Address of Beneficiary 
+							 <span id = "field_value">
+							 	 <t t-if = "o.tender_street">
+								 	<span t-field = "o.tender_street"/>,
+								 </t>
+								 <t t-if = "o.tender_street2">
+								 	<span t-field = "o.tender_street2"/>,
+								 </t>
+								 <t t-if = "o.tender_city">
+								 	<span t-field = "o.tender_city"/>
+								 </t>
+							 </span><br/>
+							 <span>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;</span>and Telephone Nos.<br/><br/>
+							5.  Nature of Guarantee Required
+							 <span id = "field_value">
+								<span>
+									<t t-if="o.nature1">
+		    							<input type="checkbox" id="checkbox104_anything_you_give" checked="checked">Bid Bond</input>
+									</t>
+									<t t-if="not o.nature1">
+		   								<input type="checkbox" id="checkbox104_anything_you_give">Bid Bond</input>
+									</t>
+									<span id = "boolean_box">
+										<t t-if="o.nature3">
+				    						<input type="checkbox" id = "checkbox103_anything_you_give" checked="checked">Advance Payment Guarantee</input>
+										</t>
+										<t t-if="not o.nature3">
+											<input type="checkbox" id="checkbox103_anything_you_give">Advance Payment Guarantee</input>
+										</t>
+									</span>
+								</span><br/>
+								<span>
+									<t t-if="o.nature2">
+	    								<input type="checkbox" id="checkbox105_anything_you_give" checked="checked">Performance Bond</input>
+									</t>
+									<t t-if="not o.nature2">
+	    								<input type="checkbox" id="checkbox105_anything_you_give">Performance Bond</input>
+									</t>
+									<span id = "boolean_box">
+										<t t-if="o.nature4">
+			    							<input type="checkbox" id="checkbox106_anything_you_give" checked="checked">Others(Specify)</input>
+										</t>
+										<t t-if="not o.nature4">
+			    							<input type="checkbox" id="checkbox106_anything_you_give">Others(Specify)</input>
+										</t>
+									</span>
+								</span>
+							 </span><br/><br/><br/>
+							<t t-if = "o.nature1"> 
+								6.  Amount of Bond
+								<t t-if = "o.amount">
+								 	<span id = "field_value">
+										Rs.<span t-field = "o.amount"/><br/>
+										<span>In Words:<span t-field = "o.amt_inwords"/></span><br/>
+								 	</span><br/><br/><br/>
+								</t>
+								<t t-if = "o.percentage">
+									<span id = "field_value">
+										<span t-field = "o.percentage"/>%
+									</span><br/><br/><br/>
+								</t>
+							</t>
+							<t t-if = "o.nature2">
+								6.  Performance Bid Amount
+								<t t-if = "o.perform_bond_amount">
+								 	<span id = "field_value">
+										Rs.<span t-field = "o.perform_bond_amount"/><br/>
+										<span>In Words:<span t-field = "o.amount_inwords"/></span><br/>
+								 	</span><br/><br/><br/>
+								</t>
+								<t t-if = "o.perform_bond_percent">
+									<span id = "field_value">
+										<span t-field = "o.perform_bond_percent"/>%
+									</span><br/><br/><br/>
+								</t>
+							</t>
+							7.  Validity of Bond
+							 <span id = "field_value">
+								<span t-field = "o.bond_validity_from"/> to
+								<span t-field = "o.bond_validity_to"/><br/>
+								<span>(Specify the exact date till which the Guarantee to be Valid)</span><br/>
+							 </span><br/><br/><br/>
+							8.  Details of Contract(Purpose)<span id = "field_value" t-field = "o.purpose"/><br/><br/>
+							9.  IFB/Contract No. and Date<span id = "field_value" t-field = "o.contract_no"/><br/><br/>
+							10.  Contract Papers
+							 <span id = "field_value">
+								<t t-if="o.contract_paper1">
+		    						<input type="checkbox" id="checkbox107_anything_you_give" checked="checked">Enclosed</input>
+								</t>
+								<t t-if="not o.contract_paper1">
+		   							<input type="checkbox" id="checkbox108_anything_you_give">Enclosed</input>
+								</t>
+								<span id = "boolean_box">
+									<t t-if="o.contract_paper2">
+		    							<input type="checkbox" id="checkbox109_anything_you_give" checked="checked">Not Enclosed</input>
+									</t>
+									<t t-if="not o.contract_paper2">
+		   								<input type="checkbox" id="checkbox110_anything_you_give">Not Enclosed</input>
+									</t>
+								</span>
+							 </span><br/><br/>
+							11.  Counter Gaurantee
+							 <span id = "field_value">
+								<t t-if="o.counter_guarentee1">
+		    						<input type="checkbox" id="checkbox107_anything_you_give" checked="checked">Not Furnished</input>
+								</t>
+								<t t-if="not o.counter_guarentee1">
+		   							<input type="checkbox" id="checkbox108_anything_you_give">Not Furnished</input>
+								</t>
+								<span id = "boolean_box">
+									<t t-if="o.counter_guarentee2">
+			    						<input type="checkbox" id="checkbox109_anything_you_give" checked="checked">Will be Furnished</input>
+									</t>
+									<t t-if="not o.counter_guarentee2">
+			   							<input type="checkbox" id="checkbox110_anything_you_give">Will be Furnished</input>
+									</t><br/>
+									By_______________
+								</span>
+							 </span><br/><br/><br/>
+							12.  I/We authorised you to debit all Charges and Commission under this guarantee from our Account No.<span t-field = "o.account_no"/>
+						</p><br/><br/><br/>
+						<p style = "text-align:right;">
+							<img t-att-src = "'data:image/png;base64,%s' % to_text(o.stamp)"/>
+							<img t-att-src = "'data:image/png;base64,%s' % to_text(o.auth_signature)"/><br/>
+							<p style = "text-align:right;">
+								Authorised Signature(s)<br/>
+						   	     	 STAMP/SEAL
+							</p>
+						</p>
+					</t>
+					<!-- Report Footer Content -->
+				</div>
+				<div class = "oe_structure"/>
+				<p style="page-break-before:always;"> </p>
+				<div clss = "oe_structure"/>
+				<div class = "page" style = "font-size: 14pt;">
+					<t t-foreach = "docs" t-as = "o">
+						<h3 style="text-indent:35%;">GENERAL INDEMNITY FORM</h3>
+						<p style = "text-align:right;">				
+							<t t-if="o.date is False">
+       							No date supplied: <t t-esc="time.strftime('%Y-%m-%d')"/>
+   							</t>
+           					<t t-if="o.date is not False">
+       							Date: <span t-field="o.date"/>
+       						</t>
+						</p>		
+						<p>The Manager<br/><span t-field = "o.bank_name"/><br/>
+							<span t-field = "o.branch"/> Branch
+						</p>				
+						
+						<br/><br/>
+						Dear Sirs,<br/><br/>
+						<div style = "text-align:justify;">
+							<div style = "text-indent: 50px;">
+								In consideration of your giving either alone or jointly an Indemnity/Guarantee to <span t-field = "o.tender_id"/>
+											<t t-if = "o.tender_street">
+											 	<span t-field = "o.tender_street"/>,
+											</t>
+											<t t-if = "o.tender_street2">
+											 	<span t-field = "o.tender_street2"/>,
+											</t>
+											 <span t-field = "o.tender_city"/> for
+											<t t-if = "o.nature1">
+												Bid Bond of 
+												<t t-if = "o.amount">
+											 		Rs.<span t-field = "o.amount"/>
+													(In words: <span t-field = "o.amt_inwords"/>)
+												</t>
+												<t t-if = "o.percentage">
+													<span t-field = "o.percentage"/>% of total Bid Amount
+												</t>
+											</t>
+											<t t-if = "o.nature2">
+												Performance Bond of 
+												<t t-if = "o.perform_bond_amount">
+													Rs.<span t-field = "o.perform_bond_amount"/>
+													(In Words: <span t-field = "o.amount_inwords"/>)
+												</t>
+												<t t-if = "o.perform_bond_percent">
+													<span t-field = "o.perform_bond_percent"/>% of total Bid Amount
+												</t>
+											</t>
+								in the form endorse hereon/ annexed hereto (and signed by me/us for identification), I/We jointly and severally hereby agree to indemnify you against all claims which may be made upon you in consequence thereof and pay to you all payments, losses, costs and expenses made, suffered or incurred by you in consequence thereof or arising thereat and I/We hereby irrevocably authorise you to debit to my/our account all such payments, losses, costs and expenses.<br/>
+							</div>
+							<div style = "text-indent: 50px;">
+								I/We irrevocably authorize you to make any payments and comply with any demands which may be claimed from or made upon you under the said Indemnity/Guarantee without any reference to or further authority from me/us and agree that any payments which you shall make accordingly or purporting to be in accordance with the Indemnity Guarantee shall be binding upon me/us and shall be accepted by me/us as conclusive evidence that you were liable to make such payments or comply with such demand and further that you may at any time determine or give notice to determine your Indemnity/Guarantee.<br/>
+							</div>
+							<div style = "text-indent: 50px;">
+								I/we also agree to pay your Bank all charges and Reimbursement of actual out of pocket expenses incurred in this regard<br/>
+							</div>
+							and<br/>
+							<div style = "text-indent: 50px;">
+								I/We further agree to pay you on demand any further charges and interest which may arise in the event of any claim being made upon you under Indemnity/Guarantee.<br/>
+							</div>
+							Signed on <span t-field = "o.date"/> day of <span t-field = "o.date"/> at the Bank's Office, situated at <span t-field = "o.branch"/> Nepal.<br/><br/><br/><br/><br/><br/><br/><br/>
+							<img t-att-src = "'data:image/png;base64,%s' % to_text(o.auth_signature)"/>
+							<img t-att-src = "'data:image/png;base64,%s' % to_text(o.stamp)"/>
+							<div>
+								Authorised Signature(s) and Company Seal:
+							</div>
+						</div>
+					</t>
+				</div>
+				<div clss = "oe_structure"/>
+		</t>
+	</template>
+</odoo>

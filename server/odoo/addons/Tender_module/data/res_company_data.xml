@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data noupdate="0">
+		<record id="base.main_company" model="res.company">
+			<field name="name">Green IT Solutions Pvt.Ltd.</field>
+			<field name="company_street">Tasindole Marga</field>
+			<field name="company_street2">Kalanki-14</field>
+			<field name="company_city">Kathmandu</field>
+			<field name="company_zip">44600</field>
+			<field name="company_phone">+977-01-5234472, 5234756</field>
+			<field name="company_email">info@greenit.com.np</field>
+			<field name="company_vat">304919992</field>
+            <field name="company_registry">329684641</field>
+			<field name="company_website">http://www.greenit.com.np/</field>
+			<field name="logo" type="base64" file="Tender_module/static/images/git_logo.png"/>
+			<field name="company_twitter">https://www.twitter.com/</field>
+			<field name="company_facebook">https://www.facebook.com/greenitsolutions.com.np/</field>
+			<field name="company_github">https://www.github.com</field>
+		</record>
+	</data>
+</odoo>

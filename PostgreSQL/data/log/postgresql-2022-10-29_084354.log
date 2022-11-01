@@ -1,0 +1,555 @@
+2022-10-29 08:43:57.236 EAT [6180] LOG:  database system was interrupted; last known up at 2022-10-28 15:36:35 EAT
+2022-10-29 08:49:43.955 EAT [6180] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-10-29 08:49:44.571 EAT [6180] LOG:  redo starts at 0/CCB5BF0
+2022-10-29 08:49:44.573 EAT [6180] LOG:  invalid record length at 0/CCB5C28: wanted 24, got 0
+2022-10-29 08:49:44.574 EAT [6180] LOG:  redo done at 0/CCB5BF0
+2022-10-29 08:49:46.866 EAT [5720] LOG:  database system is ready to accept connections
+2022-10-29 09:59:35.551 EAT [4860] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-29 09:59:35.555 EAT [320] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-29 09:59:35.558 EAT [10384] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-29 09:59:35.562 EAT [1512] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-29 09:59:35.568 EAT [11432] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-29 09:59:35.572 EAT [6060] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-29 09:59:35.581 EAT [7344] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-29 09:59:35.596 EAT [9788] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-29 09:59:35.583 EAT [13192] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-29 11:54:47.091 EAT [14332] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-29 11:54:47.092 EAT [1652] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-29 11:54:47.097 EAT [2608] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-29 11:54:47.108 EAT [6808] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-29 11:54:47.108 EAT [1844] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-29 11:54:47.109 EAT [9604] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-29 11:54:47.124 EAT [8752] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-29 11:54:47.125 EAT [2480] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-29 12:07:19.845 EAT [15148] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-29 12:07:19.854 EAT [9656] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-29 12:07:19.858 EAT [4440] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-29 12:07:19.863 EAT [13812] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-29 12:07:19.868 EAT [13720] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-29 12:07:19.872 EAT [13192] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-29 12:07:19.875 EAT [2840] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-29 12:07:19.891 EAT [15096] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 08:49:55.572 EAT [12880] ERROR:  could not serialize access due to concurrent delete
+2022-10-31 08:49:55.572 EAT [12880] STATEMENT:  DELETE FROM ir_attachment WHERE id IN (857)
+2022-10-31 09:04:07.585 EAT [12880] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:04:07.596 EAT [5888] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:04:07.598 EAT [12188] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:04:07.601 EAT [13820] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:04:07.605 EAT [2200] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:04:07.615 EAT [13272] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:04:07.616 EAT [14288] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:04:07.622 EAT [11876] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:04:07.628 EAT [2272] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:05:43.465 EAT [4808] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:05:43.465 EAT [13300] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:05:43.468 EAT [14964] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:05:43.471 EAT [11136] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:05:43.471 EAT [13108] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:05:43.475 EAT [5612] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:05:43.476 EAT [7448] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:05:43.481 EAT [13196] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:07:48.953 EAT [13612] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:07:48.958 EAT [2400] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:07:48.960 EAT [5036] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:07:48.971 EAT [6720] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:07:48.976 EAT [14324] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:07:48.979 EAT [1928] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:07:48.988 EAT [4428] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:07:48.989 EAT [5348] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:07:48.991 EAT [12568] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:10:59.811 EAT [8820] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:10:59.812 EAT [11856] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:10:59.814 EAT [3796] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:10:59.826 EAT [3716] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:10:59.836 EAT [2356] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:10:59.842 EAT [13092] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:10:59.850 EAT [11860] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:10:59.852 EAT [15220] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:28:45.611 EAT [10388] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:28:45.612 EAT [7196] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:28:45.616 EAT [9244] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:28:45.628 EAT [928] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:28:45.628 EAT [8020] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:28:45.633 EAT [13428] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:28:45.642 EAT [7136] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:28:45.648 EAT [9228] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:30:21.959 EAT [1576] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:30:21.966 EAT [14948] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:30:21.948 EAT [13472] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:30:21.980 EAT [2428] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:30:21.982 EAT [11832] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:30:21.983 EAT [1448] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:30:21.984 EAT [11824] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:30:21.991 EAT [12808] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:31:32.467 EAT [10348] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:31:32.484 EAT [9300] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:31:32.489 EAT [9844] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:31:32.496 EAT [1148] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:31:32.503 EAT [12552] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:31:32.503 EAT [9720] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:31:32.500 EAT [3392] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:31:32.515 EAT [12352] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:31:32.516 EAT [8672] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:33:10.312 EAT [5316] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:33:10.319 EAT [13264] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:33:10.328 EAT [11560] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:33:10.329 EAT [13692] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:33:10.334 EAT [6664] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:33:10.339 EAT [14756] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:33:10.339 EAT [6600] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:33:10.345 EAT [8076] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:33:10.354 EAT [10144] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:33:50.826 EAT [9284] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:33:50.834 EAT [14008] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:33:50.830 EAT [8280] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:33:50.838 EAT [9776] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:33:50.850 EAT [1244] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:33:50.855 EAT [10308] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:33:50.869 EAT [13992] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:33:50.871 EAT [14960] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:33:50.872 EAT [640] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:35:53.207 EAT [12924] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:35:53.210 EAT [7404] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:35:53.219 EAT [8612] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:35:53.226 EAT [9852] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:35:53.228 EAT [15116] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:35:53.236 EAT [10700] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:35:53.241 EAT [13428] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:35:53.246 EAT [2960] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:35:53.248 EAT [8468] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:36:46.218 EAT [11548] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:36:46.220 EAT [6352] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:36:46.223 EAT [11064] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:36:46.231 EAT [3316] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:36:46.234 EAT [6876] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:36:46.235 EAT [9928] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:36:46.238 EAT [200] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:36:46.248 EAT [8516] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:36:46.261 EAT [9904] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:45:45.568 EAT [784] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:45:45.572 EAT [6404] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:45:45.580 EAT [13584] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:45:45.581 EAT [8512] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:45:45.582 EAT [13636] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:45:45.596 EAT [9068] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:45:45.598 EAT [11992] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:45:45.599 EAT [10884] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:45:45.602 EAT [9560] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:47:36.962 EAT [14008] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:47:36.962 EAT [11500] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:47:36.970 EAT [6288] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:47:36.973 EAT [5704] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:47:36.974 EAT [10368] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:47:36.993 EAT [10596] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:54:38.242 EAT [1572] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:54:38.243 EAT [13396] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:54:38.248 EAT [8460] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:54:38.256 EAT [7108] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:54:38.259 EAT [1448] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:54:38.236 EAT [7120] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:54:38.266 EAT [8944] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:54:38.268 EAT [13856] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:54:38.286 EAT [8720] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:57:00.122 EAT [4228] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:57:00.130 EAT [1644] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:57:00.135 EAT [1180] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:57:00.136 EAT [5440] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:57:00.138 EAT [5612] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:57:00.138 EAT [9640] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:57:00.145 EAT [840] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 09:57:00.166 EAT [2520] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 10:06:50.161 EAT [3096] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 10:06:50.173 EAT [4124] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 10:06:50.177 EAT [8920] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 10:06:50.182 EAT [1508] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 10:06:50.188 EAT [12132] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 10:06:50.195 EAT [8300] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 10:06:50.200 EAT [6440] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 10:06:50.208 EAT [9116] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 10:56:07.502 EAT [8636] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 10:56:07.528 EAT [12592] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 10:56:07.540 EAT [14364] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 10:56:07.543 EAT [10340] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 10:56:07.551 EAT [15228] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 10:56:07.560 EAT [9608] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 10:56:07.564 EAT [8072] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 10:56:07.589 EAT [7892] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 10:59:22.298 EAT [8920] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 10:59:22.305 EAT [10092] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 10:59:22.309 EAT [14916] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 10:59:22.312 EAT [5604] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 10:59:22.313 EAT [12756] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 10:59:22.313 EAT [11460] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 10:59:22.331 EAT [13380] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 10:59:22.356 EAT [2260] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 11:01:07.773 EAT [10708] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 11:01:07.775 EAT [10356] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 11:01:07.777 EAT [4788] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 11:01:07.787 EAT [15284] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 11:01:07.788 EAT [14552] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 11:01:07.794 EAT [10048] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 11:01:07.802 EAT [11876] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 11:01:07.802 EAT [14796] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 11:07:16.995 EAT [12596] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 11:07:16.999 EAT [11888] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 11:07:17.005 EAT [10556] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 11:07:17.011 EAT [12144] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 11:07:17.016 EAT [7520] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 11:07:17.027 EAT [6416] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 11:07:17.030 EAT [12028] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 11:07:17.036 EAT [12216] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 12:44:24.661 EAT [14948] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 12:44:24.661 EAT [7380] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 12:44:24.667 EAT [12380] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 12:44:24.668 EAT [8472] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 12:44:24.671 EAT [14116] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 12:44:24.681 EAT [632] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 12:44:24.682 EAT [9764] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 12:44:24.689 EAT [3716] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 16:57:31.418 EAT [7396] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 16:57:31.428 EAT [6572] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 16:57:31.437 EAT [1396] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 16:57:31.439 EAT [12592] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 16:57:31.442 EAT [14988] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 16:57:31.458 EAT [15852] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 16:57:31.474 EAT [8248] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-31 16:57:31.447 EAT [15764] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-11-01 08:45:56.447 EAT [10816] ERROR:  could not obtain lock on row in relation "website_visitor"
+2022-11-01 08:45:56.447 EAT [10816] STATEMENT:  SELECT * FROM website_visitor where id = 1 FOR NO KEY UPDATE NOWAIT
+2022-11-01 09:04:45.946 EAT [10816] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-11-01 09:04:45.959 EAT [14384] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-11-01 09:04:45.961 EAT [12132] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-11-01 09:04:46.003 EAT [11120] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-11-01 09:04:46.007 EAT [3104] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-11-01 09:04:46.008 EAT [13608] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-11-01 09:08:27.977 EAT [16456] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-11-01 09:08:27.978 EAT [11840] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-11-01 09:08:27.990 EAT [2612] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-11-01 09:08:27.992 EAT [8916] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-11-01 09:08:27.993 EAT [12548] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-11-01 09:08:27.995 EAT [12140] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-11-01 09:08:27.995 EAT [3836] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-11-01 09:08:28.008 EAT [5976] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-11-01 09:09:18.326 EAT [8200] ERROR:  duplicate key value violates unique constraint "res_groups_name_uniq"
+2022-11-01 09:09:18.326 EAT [8200] DETAIL:  Key (category_id, name)=(6, Quotation Templates) already exists.
+2022-11-01 09:09:18.326 EAT [8200] STATEMENT:  INSERT INTO "res_groups" ("id", "category_id", "create_date", "create_uid", "name", "write_date", "write_uid") VALUES (nextval('res_groups_id_seq'), 6, '2022-11-01 06:09:15.286269', 1, 'Quotation Templates', '2022-11-01 06:09:15.286269', 1) RETURNING id
+2022-11-01 09:09:43.874 EAT [8200] ERROR:  duplicate key value violates unique constraint "res_groups_name_uniq"
+2022-11-01 09:09:43.874 EAT [8200] DETAIL:  Key (category_id, name)=(6, Quotation Templates) already exists.
+2022-11-01 09:09:43.874 EAT [8200] STATEMENT:  INSERT INTO "res_groups" ("id", "category_id", "create_date", "create_uid", "name", "write_date", "write_uid") VALUES (nextval('res_groups_id_seq'), 6, '2022-11-01 06:09:41.265976', 1, 'Quotation Templates', '2022-11-01 06:09:41.265976', 1) RETURNING id
+2022-11-01 09:10:44.535 EAT [8472] ERROR:  null value in column "model_id" violates not-null constraint
+2022-11-01 09:10:44.535 EAT [8472] DETAIL:  Failing row contains (1196, sale.order.template, t, null, 21, t, f, f, f, 1, 2022-11-01 06:10:42.572478, 1, 2022-11-01 06:10:42.572478).
+2022-11-01 09:10:44.535 EAT [8472] STATEMENT:  INSERT INTO "ir_model_access" ("id", "active", "create_date", "create_uid", "group_id", "name", "perm_create", "perm_read", "perm_unlink", "perm_write", "write_date", "write_uid") VALUES (nextval('ir_model_access_id_seq'), true, '2022-11-01 06:10:42.572478', 1, 21, 'sale.order.template', false, true, false, false, '2022-11-01 06:10:42.572478', 1) RETURNING id
+2022-11-01 09:10:44.542 EAT [8472] ERROR:  null value in column "model_id" violates not-null constraint
+2022-11-01 09:10:44.542 EAT [8472] DETAIL:  Failing row contains (1197, sale.order.template, t, null, 21, t, f, f, f, 1, 2022-11-01 06:10:42.572478, 1, 2022-11-01 06:10:42.572478).
+2022-11-01 09:10:44.542 EAT [8472] STATEMENT:  INSERT INTO "ir_model_access" ("id", "active", "create_date", "create_uid", "group_id", "name", "perm_create", "perm_read", "perm_unlink", "perm_write", "write_date", "write_uid") VALUES (nextval('ir_model_access_id_seq'), true, '2022-11-01 06:10:42.572478', 1, 21, 'sale.order.template', false, true, false, false, '2022-11-01 06:10:42.572478', 1) RETURNING id
+2022-11-01 09:10:44.552 EAT [8472] ERROR:  null value in column "model_id" violates not-null constraint
+2022-11-01 09:10:44.552 EAT [8472] DETAIL:  Failing row contains (1198, sale.order.template, t, null, 23, t, t, t, t, 1, 2022-11-01 06:10:42.572478, 1, 2022-11-01 06:10:42.572478).
+2022-11-01 09:10:44.552 EAT [8472] STATEMENT:  INSERT INTO "ir_model_access" ("id", "active", "create_date", "create_uid", "group_id", "name", "perm_create", "perm_read", "perm_unlink", "perm_write", "write_date", "write_uid") VALUES (nextval('ir_model_access_id_seq'), true, '2022-11-01 06:10:42.572478', 1, 23, 'sale.order.template', true, true, true, true, '2022-11-01 06:10:42.572478', 1) RETURNING id
+2022-11-01 09:10:44.561 EAT [8472] ERROR:  null value in column "model_id" violates not-null constraint
+2022-11-01 09:10:44.561 EAT [8472] DETAIL:  Failing row contains (1199, sale.order.template, t, null, 3, t, f, f, f, 1, 2022-11-01 06:10:42.572478, 1, 2022-11-01 06:10:42.572478).
+2022-11-01 09:10:44.561 EAT [8472] STATEMENT:  INSERT INTO "ir_model_access" ("id", "active", "create_date", "create_uid", "group_id", "name", "perm_create", "perm_read", "perm_unlink", "perm_write", "write_date", "write_uid") VALUES (nextval('ir_model_access_id_seq'), true, '2022-11-01 06:10:42.572478', 1, 3, 'sale.order.template', false, true, false, false, '2022-11-01 06:10:42.572478', 1) RETURNING id
+2022-11-01 09:10:44.570 EAT [8472] ERROR:  null value in column "model_id" violates not-null constraint
+2022-11-01 09:10:44.570 EAT [8472] DETAIL:  Failing row contains (1200, sale.order.template.line, t, null, 21, t, f, f, f, 1, 2022-11-01 06:10:42.572478, 1, 2022-11-01 06:10:42.572478).
+2022-11-01 09:10:44.570 EAT [8472] STATEMENT:  INSERT INTO "ir_model_access" ("id", "active", "create_date", "create_uid", "group_id", "name", "perm_create", "perm_read", "perm_unlink", "perm_write", "write_date", "write_uid") VALUES (nextval('ir_model_access_id_seq'), true, '2022-11-01 06:10:42.572478', 1, 21, 'sale.order.template.line', false, true, false, false, '2022-11-01 06:10:42.572478', 1) RETURNING id
+2022-11-01 09:10:44.579 EAT [8472] ERROR:  null value in column "model_id" violates not-null constraint
+2022-11-01 09:10:44.579 EAT [8472] DETAIL:  Failing row contains (1201, sale.order.template.line, t, null, 23, t, t, t, t, 1, 2022-11-01 06:10:42.572478, 1, 2022-11-01 06:10:42.572478).
+2022-11-01 09:10:44.579 EAT [8472] STATEMENT:  INSERT INTO "ir_model_access" ("id", "active", "create_date", "create_uid", "group_id", "name", "perm_create", "perm_read", "perm_unlink", "perm_write", "write_date", "write_uid") VALUES (nextval('ir_model_access_id_seq'), true, '2022-11-01 06:10:42.572478', 1, 23, 'sale.order.template.line', true, true, true, true, '2022-11-01 06:10:42.572478', 1) RETURNING id
+2022-11-01 09:10:44.587 EAT [8472] ERROR:  null value in column "model_id" violates not-null constraint
+2022-11-01 09:10:44.587 EAT [8472] DETAIL:  Failing row contains (1202, sale.order.template.option, t, null, 21, t, f, f, f, 1, 2022-11-01 06:10:42.572478, 1, 2022-11-01 06:10:42.572478).
+2022-11-01 09:10:44.587 EAT [8472] STATEMENT:  INSERT INTO "ir_model_access" ("id", "active", "create_date", "create_uid", "group_id", "name", "perm_create", "perm_read", "perm_unlink", "perm_write", "write_date", "write_uid") VALUES (nextval('ir_model_access_id_seq'), true, '2022-11-01 06:10:42.572478', 1, 21, 'sale.order.template.option', false, true, false, false, '2022-11-01 06:10:42.572478', 1) RETURNING id
+2022-11-01 09:10:44.595 EAT [8472] ERROR:  null value in column "model_id" violates not-null constraint
+2022-11-01 09:10:44.595 EAT [8472] DETAIL:  Failing row contains (1203, sale.order.template.option, t, null, 23, t, t, t, t, 1, 2022-11-01 06:10:42.572478, 1, 2022-11-01 06:10:42.572478).
+2022-11-01 09:10:44.595 EAT [8472] STATEMENT:  INSERT INTO "ir_model_access" ("id", "active", "create_date", "create_uid", "group_id", "name", "perm_create", "perm_read", "perm_unlink", "perm_write", "write_date", "write_uid") VALUES (nextval('ir_model_access_id_seq'), true, '2022-11-01 06:10:42.572478', 1, 23, 'sale.order.template.option', true, true, true, true, '2022-11-01 06:10:42.572478', 1) RETURNING id
+2022-11-01 09:10:44.602 EAT [8472] ERROR:  null value in column "model_id" violates not-null constraint
+2022-11-01 09:10:44.602 EAT [8472] DETAIL:  Failing row contains (1204, sale.order.option, t, null, 21, t, t, t, t, 1, 2022-11-01 06:10:42.572478, 1, 2022-11-01 06:10:42.572478).
+2022-11-01 09:10:44.602 EAT [8472] STATEMENT:  INSERT INTO "ir_model_access" ("id", "active", "create_date", "create_uid", "group_id", "name", "perm_create", "perm_read", "perm_unlink", "perm_write", "write_date", "write_uid") VALUES (nextval('ir_model_access_id_seq'), true, '2022-11-01 06:10:42.572478', 1, 21, 'sale.order.option', true, true, true, true, '2022-11-01 06:10:42.572478', 1) RETURNING id
+2022-11-01 09:10:44.611 EAT [8472] ERROR:  null value in column "model_id" violates not-null constraint
+2022-11-01 09:10:44.611 EAT [8472] DETAIL:  Failing row contains (1205, sale.order.option, t, null, null, t, f, f, f, 1, 2022-11-01 06:10:42.572478, 1, 2022-11-01 06:10:42.572478).
+2022-11-01 09:10:44.611 EAT [8472] STATEMENT:  INSERT INTO "ir_model_access" ("id", "active", "create_date", "create_uid", "group_id", "name", "perm_create", "perm_read", "perm_unlink", "perm_write", "write_date", "write_uid") VALUES (nextval('ir_model_access_id_seq'), true, '2022-11-01 06:10:42.572478', 1, NULL, 'sale.order.option', false, true, false, false, '2022-11-01 06:10:42.572478', 1) RETURNING id
+2022-11-01 09:11:18.410 EAT [8200] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-11-01 09:11:18.414 EAT [8472] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-11-01 09:11:18.422 EAT [14728] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-11-01 09:11:18.426 EAT [16148] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-11-01 09:11:18.432 EAT [17376] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-11-01 09:11:18.442 EAT [4828] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-11-01 09:11:18.453 EAT [10632] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-11-01 09:11:44.533 EAT [15696] ERROR:  null value in column "model_id" violates not-null constraint
+2022-11-01 09:11:44.533 EAT [15696] DETAIL:  Failing row contains (1206, sale.order.template, t, null, 21, t, f, f, f, 1, 2022-11-01 06:11:42.451131, 1, 2022-11-01 06:11:42.451131).
+2022-11-01 09:11:44.533 EAT [15696] STATEMENT:  INSERT INTO "ir_model_access" ("id", "active", "create_date", "create_uid", "group_id", "name", "perm_create", "perm_read", "perm_unlink", "perm_write", "write_date", "write_uid") VALUES (nextval('ir_model_access_id_seq'), true, '2022-11-01 06:11:42.451131', 1, 21, 'sale.order.template', false, true, false, false, '2022-11-01 06:11:42.451131', 1) RETURNING id
+2022-11-01 09:11:44.540 EAT [15696] ERROR:  null value in column "model_id" violates not-null constraint
+2022-11-01 09:11:44.540 EAT [15696] DETAIL:  Failing row contains (1207, sale.order.template, t, null, 21, t, f, f, f, 1, 2022-11-01 06:11:42.451131, 1, 2022-11-01 06:11:42.451131).
+2022-11-01 09:11:44.540 EAT [15696] STATEMENT:  INSERT INTO "ir_model_access" ("id", "active", "create_date", "create_uid", "group_id", "name", "perm_create", "perm_read", "perm_unlink", "perm_write", "write_date", "write_uid") VALUES (nextval('ir_model_access_id_seq'), true, '2022-11-01 06:11:42.451131', 1, 21, 'sale.order.template', false, true, false, false, '2022-11-01 06:11:42.451131', 1) RETURNING id
+2022-11-01 09:11:44.548 EAT [15696] ERROR:  null value in column "model_id" violates not-null constraint
+2022-11-01 09:11:44.548 EAT [15696] DETAIL:  Failing row contains (1208, sale.order.template, t, null, 23, t, t, t, t, 1, 2022-11-01 06:11:42.451131, 1, 2022-11-01 06:11:42.451131).
+2022-11-01 09:11:44.548 EAT [15696] STATEMENT:  INSERT INTO "ir_model_access" ("id", "active", "create_date", "create_uid", "group_id", "name", "perm_create", "perm_read", "perm_unlink", "perm_write", "write_date", "write_uid") VALUES (nextval('ir_model_access_id_seq'), true, '2022-11-01 06:11:42.451131', 1, 23, 'sale.order.template', true, true, true, true, '2022-11-01 06:11:42.451131', 1) RETURNING id
+2022-11-01 09:11:44.557 EAT [15696] ERROR:  null value in column "model_id" violates not-null constraint
+2022-11-01 09:11:44.557 EAT [15696] DETAIL:  Failing row contains (1209, sale.order.template, t, null, 3, t, f, f, f, 1, 2022-11-01 06:11:42.451131, 1, 2022-11-01 06:11:42.451131).
+2022-11-01 09:11:44.557 EAT [15696] STATEMENT:  INSERT INTO "ir_model_access" ("id", "active", "create_date", "create_uid", "group_id", "name", "perm_create", "perm_read", "perm_unlink", "perm_write", "write_date", "write_uid") VALUES (nextval('ir_model_access_id_seq'), true, '2022-11-01 06:11:42.451131', 1, 3, 'sale.order.template', false, true, false, false, '2022-11-01 06:11:42.451131', 1) RETURNING id
+2022-11-01 09:11:44.567 EAT [15696] ERROR:  null value in column "model_id" violates not-null constraint
+2022-11-01 09:11:44.567 EAT [15696] DETAIL:  Failing row contains (1210, sale.order.template.line, t, null, 21, t, f, f, f, 1, 2022-11-01 06:11:42.451131, 1, 2022-11-01 06:11:42.451131).
+2022-11-01 09:11:44.567 EAT [15696] STATEMENT:  INSERT INTO "ir_model_access" ("id", "active", "create_date", "create_uid", "group_id", "name", "perm_create", "perm_read", "perm_unlink", "perm_write", "write_date", "write_uid") VALUES (nextval('ir_model_access_id_seq'), true, '2022-11-01 06:11:42.451131', 1, 21, 'sale.order.template.line', false, true, false, false, '2022-11-01 06:11:42.451131', 1) RETURNING id
+2022-11-01 09:11:44.577 EAT [15696] ERROR:  null value in column "model_id" violates not-null constraint
+2022-11-01 09:11:44.577 EAT [15696] DETAIL:  Failing row contains (1211, sale.order.template.line, t, null, 23, t, t, t, t, 1, 2022-11-01 06:11:42.451131, 1, 2022-11-01 06:11:42.451131).
+2022-11-01 09:11:44.577 EAT [15696] STATEMENT:  INSERT INTO "ir_model_access" ("id", "active", "create_date", "create_uid", "group_id", "name", "perm_create", "perm_read", "perm_unlink", "perm_write", "write_date", "write_uid") VALUES (nextval('ir_model_access_id_seq'), true, '2022-11-01 06:11:42.451131', 1, 23, 'sale.order.template.line', true, true, true, true, '2022-11-01 06:11:42.451131', 1) RETURNING id
+2022-11-01 09:11:44.586 EAT [15696] ERROR:  null value in column "model_id" violates not-null constraint
+2022-11-01 09:11:44.586 EAT [15696] DETAIL:  Failing row contains (1212, sale.order.template.option, t, null, 21, t, f, f, f, 1, 2022-11-01 06:11:42.451131, 1, 2022-11-01 06:11:42.451131).
+2022-11-01 09:11:44.586 EAT [15696] STATEMENT:  INSERT INTO "ir_model_access" ("id", "active", "create_date", "create_uid", "group_id", "name", "perm_create", "perm_read", "perm_unlink", "perm_write", "write_date", "write_uid") VALUES (nextval('ir_model_access_id_seq'), true, '2022-11-01 06:11:42.451131', 1, 21, 'sale.order.template.option', false, true, false, false, '2022-11-01 06:11:42.451131', 1) RETURNING id
+2022-11-01 09:11:44.596 EAT [15696] ERROR:  null value in column "model_id" violates not-null constraint
+2022-11-01 09:11:44.596 EAT [15696] DETAIL:  Failing row contains (1213, sale.order.template.option, t, null, 23, t, t, t, t, 1, 2022-11-01 06:11:42.451131, 1, 2022-11-01 06:11:42.451131).
+2022-11-01 09:11:44.596 EAT [15696] STATEMENT:  INSERT INTO "ir_model_access" ("id", "active", "create_date", "create_uid", "group_id", "name", "perm_create", "perm_read", "perm_unlink", "perm_write", "write_date", "write_uid") VALUES (nextval('ir_model_access_id_seq'), true, '2022-11-01 06:11:42.451131', 1, 23, 'sale.order.template.option', true, true, true, true, '2022-11-01 06:11:42.451131', 1) RETURNING id
+2022-11-01 09:11:44.604 EAT [15696] ERROR:  null value in column "model_id" violates not-null constraint
+2022-11-01 09:11:44.604 EAT [15696] DETAIL:  Failing row contains (1214, sale.order.option, t, null, 21, t, t, t, t, 1, 2022-11-01 06:11:42.451131, 1, 2022-11-01 06:11:42.451131).
+2022-11-01 09:11:44.604 EAT [15696] STATEMENT:  INSERT INTO "ir_model_access" ("id", "active", "create_date", "create_uid", "group_id", "name", "perm_create", "perm_read", "perm_unlink", "perm_write", "write_date", "write_uid") VALUES (nextval('ir_model_access_id_seq'), true, '2022-11-01 06:11:42.451131', 1, 21, 'sale.order.option', true, true, true, true, '2022-11-01 06:11:42.451131', 1) RETURNING id
+2022-11-01 09:11:44.612 EAT [15696] ERROR:  null value in column "model_id" violates not-null constraint
+2022-11-01 09:11:44.612 EAT [15696] DETAIL:  Failing row contains (1215, sale.order.option, t, null, null, t, f, f, f, 1, 2022-11-01 06:11:42.451131, 1, 2022-11-01 06:11:42.451131).
+2022-11-01 09:11:44.612 EAT [15696] STATEMENT:  INSERT INTO "ir_model_access" ("id", "active", "create_date", "create_uid", "group_id", "name", "perm_create", "perm_read", "perm_unlink", "perm_write", "write_date", "write_uid") VALUES (nextval('ir_model_access_id_seq'), true, '2022-11-01 06:11:42.451131', 1, NULL, 'sale.order.option', false, true, false, false, '2022-11-01 06:11:42.451131', 1) RETURNING id
+2022-11-01 09:12:50.407 EAT [15696] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-11-01 09:12:50.423 EAT [16304] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-11-01 09:12:50.423 EAT [1396] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-11-01 09:12:50.425 EAT [1432] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-11-01 09:12:50.431 EAT [17124] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-11-01 09:12:50.437 EAT [16744] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-11-01 09:12:50.437 EAT [2616] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-11-01 09:12:50.456 EAT [11672] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-11-01 09:13:29.350 EAT [6376] ERROR:  duplicate key value violates unique constraint "res_groups_name_uniq"
+2022-11-01 09:13:29.350 EAT [6376] DETAIL:  Key (category_id, name)=(6, Quotation Templates) already exists.
+2022-11-01 09:13:29.350 EAT [6376] STATEMENT:  INSERT INTO "res_groups" ("id", "category_id", "create_date", "create_uid", "name", "write_date", "write_uid") VALUES (nextval('res_groups_id_seq'), 6, '2022-11-01 06:13:26.814302', 1, 'Quotation Templates', '2022-11-01 06:13:26.814302', 1) RETURNING id
+2022-11-01 09:56:49.714 EAT [16472] ERROR:  could not obtain lock on row in relation "website_visitor"
+2022-11-01 09:56:49.714 EAT [16472] STATEMENT:  SELECT * FROM website_visitor where id = 1 FOR NO KEY UPDATE NOWAIT

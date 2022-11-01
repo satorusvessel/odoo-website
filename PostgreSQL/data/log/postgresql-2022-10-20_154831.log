@@ -1,0 +1,226 @@
+2022-10-20 15:48:32.803 EAT [6384] LOG:  database system was interrupted; last known up at 2022-10-20 15:40:24 EAT
+2022-10-20 15:49:29.438 EAT [6384] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-10-20 15:49:29.543 EAT [6384] LOG:  redo starts at 0/8E052D8
+2022-10-20 15:49:29.565 EAT [6384] LOG:  invalid record length at 0/8E05AD0: wanted 24, got 0
+2022-10-20 15:49:29.569 EAT [6384] LOG:  redo done at 0/8E05A98
+2022-10-20 15:49:30.595 EAT [6136] LOG:  database system is ready to accept connections
+2022-10-20 16:46:54.372 EAT [12548] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-20 16:46:54.372 EAT [7808] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-20 16:46:54.373 EAT [13508] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-20 16:46:54.374 EAT [13672] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-20 16:46:54.373 EAT [14088] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-20 16:46:54.375 EAT [1940] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-20 16:46:54.376 EAT [10572] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 09:01:09.518 EAT [7616] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 09:01:09.518 EAT [700] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 09:01:09.518 EAT [10184] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 09:01:09.521 EAT [10120] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 09:01:09.527 EAT [7396] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 09:01:09.527 EAT [12252] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 09:01:09.529 EAT [12276] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 09:01:09.535 EAT [9340] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 10:56:28.706 EAT [10580] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 10:56:28.708 EAT [12880] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 10:56:28.708 EAT [6332] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 10:56:28.725 EAT [15200] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 10:56:28.725 EAT [9248] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 10:56:28.725 EAT [7932] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 10:56:28.729 EAT [1220] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 10:56:28.749 EAT [3148] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 10:56:28.761 EAT [6108] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 11:15:10.699 EAT [13096] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 11:15:10.700 EAT [8900] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 11:15:10.702 EAT [11424] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 11:15:10.706 EAT [15080] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 11:15:10.709 EAT [2260] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 11:15:10.713 EAT [15260] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 11:15:10.716 EAT [12888] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 11:15:10.734 EAT [2220] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 11:18:31.099 EAT [12036] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 11:18:31.105 EAT [11868] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 11:18:31.107 EAT [3768] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 11:18:31.110 EAT [12088] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 11:18:31.122 EAT [4776] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 11:18:31.125 EAT [12008] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 11:18:31.128 EAT [12516] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 11:18:31.135 EAT [14540] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 11:22:36.796 EAT [2260] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 11:22:36.798 EAT [4320] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 11:22:36.806 EAT [1500] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 11:22:36.817 EAT [5244] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 11:22:36.830 EAT [2636] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 11:22:36.832 EAT [7284] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 11:22:36.834 EAT [13840] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 11:22:36.839 EAT [14556] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 11:40:19.264 EAT [10732] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 11:40:19.267 EAT [14280] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 11:40:19.282 EAT [5300] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 11:40:19.283 EAT [12880] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 11:40:19.268 EAT [5496] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 11:40:19.286 EAT [8376] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 11:40:19.290 EAT [14240] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 11:44:08.236 EAT [2096] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 11:44:08.237 EAT [14628] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 11:44:08.249 EAT [14836] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 11:44:08.253 EAT [11168] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 11:44:08.256 EAT [13156] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 11:44:08.260 EAT [13660] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 11:44:08.263 EAT [2864] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 11:46:08.443 EAT [12412] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 11:46:08.445 EAT [13244] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 11:46:08.461 EAT [10528] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 11:46:08.463 EAT [15200] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 11:46:08.472 EAT [4292] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 11:46:08.477 EAT [5760] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 11:46:08.477 EAT [1892] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 11:49:12.829 EAT [7068] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 11:49:12.834 EAT [14412] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 11:49:12.838 EAT [2920] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 11:49:12.841 EAT [7488] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 11:49:12.844 EAT [14624] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 11:49:12.846 EAT [11192] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 11:49:12.855 EAT [14884] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 12:05:56.110 EAT [4664] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 12:05:56.111 EAT [11896] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 12:05:56.115 EAT [12884] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 12:05:56.124 EAT [10264] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 12:05:56.126 EAT [9472] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 12:05:56.131 EAT [11240] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 12:05:56.138 EAT [7448] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 12:10:19.624 EAT [1568] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 12:10:19.625 EAT [2928] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 12:10:19.625 EAT [7612] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 12:10:19.644 EAT [14724] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 12:10:19.647 EAT [1524] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 12:10:19.652 EAT [9336] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 12:15:11.026 EAT [10784] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 12:15:11.027 EAT [6096] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 12:15:11.028 EAT [12900] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 12:15:11.031 EAT [5492] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 12:15:11.045 EAT [8748] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 12:15:11.046 EAT [984] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 12:15:11.048 EAT [7308] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 12:17:26.849 EAT [9708] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 12:17:26.860 EAT [10828] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 12:17:26.870 EAT [12300] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 12:17:26.870 EAT [9260] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 12:17:26.882 EAT [9164] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 12:17:26.883 EAT [2536] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 12:17:26.890 EAT [11016] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 12:34:43.548 EAT [15080] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 12:34:43.556 EAT [1720] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 12:34:43.558 EAT [13840] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 12:34:43.570 EAT [1104] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 12:34:43.570 EAT [8420] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 12:34:43.573 EAT [6576] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 12:34:43.585 EAT [14692] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	

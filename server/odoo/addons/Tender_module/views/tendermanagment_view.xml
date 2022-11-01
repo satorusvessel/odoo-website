@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data>
+		<!-- List View of RFPs Management-->
+		<record id="tender_managment_view_tree" model="ir.ui.view">
+			<field name="name">all.tender.docs</field>
+			<field name="model">new.tender</field>
+			<field name="arch" type= "xml">
+				<tree string="Tendered" decoration-success="state=='sent'" decoration-muted="state=='cancel'" decoration-danger="days_left=='Tender is Expired'" delete="false">
+					<field name="name"/>
+					<field name="category"/>
+					<field name="publ_date"/>
+					<field name="subm_date"/>
+					<field name="days_left"/>
+					<field name="bid_amount"/>
+					<field name="state"/>
+				</tree>
+			</field>
+		</record>
+		<!-- LIST VIEW -->
+
+
+		<!-- Form View to show the form of RFPs Management -->
+		<record id="form_view_sheet" model="ir.ui.view">
+			<field name="name">RFPs.Form.View</field>
+			<field name="model">new.tender</field>
+			<field name="arch" type="xml">
+				<form>
+					<header>
+						<button name="%(print_record)d" string="Print" type="action"/>
+						<button name="action_confirm" string="Confirm" type="object" class="oe_highlight"
+                        states="record"/>
+						<button name="send_mail_template" string="Send Email" type="object" states="draft" groups="base.group_system"/>
+						<button name="action_email_send" string="Docs Requested" type="object" states="draft" class="oe_highlight"/>
+						<button name="action_done" type="object" string="Lock" states="sent" class="oe_highlight" groups="base.group_system"
+                        help="If the sale is locked, you can not modify it anymore. However, you will still be able to invoice or deliver."/>
+                    	<button name="action_unlock" type="object" string="Unlock" states="done" class="oe_highlight" groups="base.group_system"/>
+                    	<button name="action_record" states="cancel" type="object" string="Set to Record" class="oe_highlight"/>
+						<button name="action_cancel" states="record,draft,tendered" type="object" string="Cancel"/>
+						<field name="state" widget="statusbar" statusbar_visible="record,draft,sent,tendered"/>
+					</header>
+					<sheet>
+						<group name="group_top">
+							<group name="group_left">
+								<label for="name" string="Name of Company"/>
+								<div class="o_address_format">
+									<field name="name" placeholder="Company Name.." class="o_address_format"/>
+									<field name="tend_street" placeholder="Street..." class="o_address_street"/>
+									<field name="tend_street2" placeholder="Street 2 ..." class="o_address_street2 oe_inline"/>,
+									<field name="tend_city" placeholder="City" class="o_address_city"/>
+								</div>
+								<field name="category"/>
+								<field name="bid_doc_price" states="record"/>
+								<field name="publ_date"/>
+								<label for="pre_bid" string="Pre-Bid Meeting" states="record"/>
+								<div states="record">
+									<field name="pre_bid" placeholder="Date"/>
+									<div><field name="pre_bid_location"  
+										placeholder="Venue"/></div>
+								</div>
+								<field name="field_type" widget="radio" options="{'horizontal':true}"/>
+								<field name="subm_days" attrs="{'invisible': [('field_type','=','date')]}"/>
+							    <field name="subm_date" attrs="{'invisible': [('field_type','=','days')]}"/>
+							    <label for="bid_open_tech" string="Bid Opening Date" states="record,tendered"/>
+							    <div class="row" states="record,tendered">
+							    	<div class="col-5">
+							    		<field name="bid_open_tech"/>
+							    		<p style="text-align:center;">Technical</p>
+							    	</div>&#38;
+							    	<div class="col-5">
+							    		<field name="bid_open_fina"/>
+							    		<p style="text-align:center;">Financial</p>
+							    	</div>
+							    </div>
+				                <!-- Field for selecting percent or amount of Bid Bond -->
+							    <field name="bond_amount_type" widget="radio" options="{'horizontal':true}"/>
+							    <label for="percentage" string="Percentage of Bid Security (%)"
+							    	attrs="{'invisible': [('bond_amount_type','=', 'amount')]}"/>
+							    <div name="percentage" attrs="{'invisible': [('bond_amount_type','=', 'amount')]}">
+							    	<field name="percentage" class="oe_inline"/> %%
+							    </div>
+                                <field name="amount" attrs="{'invisible': [('bond_amount_type','=', 'percentage')]}"/>
+                                <label for="bid_validity" string= "Bid Security Validity"/>
+                                <div>
+                                	<field name="bid_validity" class="oe_inline"/> Days Left:
+                                	<field name="bid_validity_days" decoration-danger="bid_validity_days =='Validity of Security Bond is Expired.'"/>
+                                </div>
+                                <!-- Field for Selection Performance Security -->
+                                <field name="perform_bond_type" widget="radio" options="{'horizontal':true}"/>
+                                <label for="perform_bond_percent" string="Performance Security (%)" attrs="{'invisible': [('perform_bond_type','=', 'perform_bond_amount')]}"/>
+							    <div name="perform_bond_percent" attrs="{'invisible': [('perform_bond_type','=', 'perform_bond_amount')]}">
+							    	<field name="perform_bond_percent" class="oe_inline"/> %%
+							    </div>
+                                <field name="perform_bond_amount" attrs="{'invisible': [('perform_bond_type','=', 'perform_bond_percent')]}"/>
+                                <!-- Field for selecting percent or amount -->
+                                <label for="bank_id" string="Bank Guarantee Sent"
+                                	attrs="{'invisible': [('state','=','record')]}"/>
+								<h6>
+									<div attrs="{'invisible':[('state','=','record')]}">
+										<field name="bank_id" class="oe_inline"/>
+										<div>
+											<p>(First Request the Bank Guarantee)</p>
+										</div>
+									</div>
+								</h6>
+							</group>
+							<group name="group_right">
+								<field name="bid_doc_type" widget="radio" options="{'horizontal':true}"/>
+								<field name="contract_id"/>
+								<field name="days_left" decoration-danger="days_left=='Tender is Expired'"/>
+								<!-- field for importing image -->
+							    <field name="image"  widget="image" class="img-fluid"/>
+						    </group>
+						</group>
+						<notebook>
+							<page string="Order Products">
+								<field name="myprod_id" mode="tree,kanban">
+								    <tree string="Order Products" editable="bottom" create ='1'>
+									    <field name="prod_id"/>
+									   	<field name="specification"/>
+									   	<field name="qty"/>
+									   	<field name="currency_id" invisible="1"/>
+									   	<field name="rate" widget="monetary" options="{'rate': 'currency_id'}"/>
+									   	<field name="maf" class="oe_highlight"/>
+									   	<field name="total" widget="monetary" options="{'total': 'currency_id'}"/>
+									   
+									    <control>
+									    	<create string="Add a Product"/>
+									    </control>
+								    </tree>
+								</field>
+								<field name="note" class="oe_inline" placeholder="Terms and conditions... (note: you can write default notes mentioned in Tender Notice )"/>
+							</page>
+							<page string="Attachment">
+								<field name="upload_file" filename="file_name"/>
+								<field name="file_name" invisible="1"/>
+							</page>
+						</notebook>
+					</sheet>
+					<!-- work performed in the form -->
+					<div class="oe_chatter">
+                    	<field name="message_follower_ids" widget="mail_followers"/>
+                    	<field name="activity_ids" widget="mail_activity"/>
+                    	<field name="message_ids" widget="mail_thread"/>
+                	</div>
+				</form>
+			</field>
+		</record>
+		<!-- FORM VIEW -->
+
+		<record forcecreate="True" id="decimal_percentage" model="decimal.precision">
+			<field name="name">Percentage</field>
+			<field name="digits">2</field>
+		</record> 
+
+
+		<!-- RECORD FOR IR.ACTION.ACT_WINDOW -->
+		<record id="action_record_form" model="ir.actions.act_window">
+			<field name="name">RFPs Management</field>
+			<field name="type">ir.actions.act_window</field>
+			<field name="res_model">new.tender</field>
+			<field name="view_mode">tree,form</field>
+		</record>
+		<!-- RECORD FOR IR.ACTION.ACT_WINDOW -->
+
+
+		<!-- MENU POINT -->
+		<menuitem 
+			id="tender_menu_record" 
+			name="RFPs Management" 
+			web_icon="Tender_module,static/description/icon.png" 
+			action ="action_record_form" 
+			sequence="10"
+		/>
+		<!-- MENU POINT -->
+	</data>
+</odoo>

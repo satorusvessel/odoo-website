@@ -1,0 +1,8 @@
+2022-10-28 09:10:09.981 EAT [6812] LOG:  database system was interrupted; last known up at 2022-10-28 08:19:52 EAT
+2022-10-28 09:10:33.138 EAT [6812] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-10-28 09:10:33.185 EAT [6812] LOG:  redo starts at 0/CC86BF8
+2022-10-28 09:10:33.186 EAT [6812] LOG:  invalid record length at 0/CC86C30: wanted 24, got 0
+2022-10-28 09:10:33.188 EAT [6812] LOG:  redo done at 0/CC86BF8
+2022-10-28 09:10:34.005 EAT [5804] LOG:  database system is ready to accept connections
+2022-10-28 12:11:26.249 EAT [11108] ERROR:  could not obtain lock on row in relation "website_visitor"
+2022-10-28 12:11:26.249 EAT [11108] STATEMENT:  SELECT * FROM website_visitor where id = 1 FOR NO KEY UPDATE NOWAIT

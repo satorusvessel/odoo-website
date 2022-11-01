@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<report 
+		id = "print_record"
+		model = "new.tender"
+		string = "Tender Report"
+		report_type = "qweb-pdf"
+		name = "Tender_module.tender_report_temp1"
+		file = "Tender_module.tender_report_temp1"
+		menu = "True"
+	/>
+	<template id = "tender_report_temp1">
+		<t t-call = "web.html_container">
+	        <t t-foreach = "docs" t-as = "doc"> 
+           		<div class="header">	
+	                <img t-attf-src="/Tender_module/static/images/git_logo.png{{ '?dbname='+db if db else '' }}" style = "max-height: 80px; float:left;"/>
+           	 	</div>
+				<t t-call = "web.external_layout">
+					<div class = "oe_structure"/>
+					<div class = "page">
+						<table class = "table table-sm" style = "table-layout:fixed;">
+							<thead>
+								<tr>
+									<th width="30px" style="background-color:#4CAF50 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">Company</th>
+									<th width="30px" style="background-color:#4CAF50 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">Category</th>
+							        <th width="30px" style="background-color:#4CAF50 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">Published Date</th>
+						            <th width="20px" style="background-color:#4CAF50 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">Submisson Date</th>
+						            <th width="20px" style="background-color:#4CAF50 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">Amount</th>
+		                   		</tr>
+		                    </thead>
+		                    <tbody class="tender_tbody">
+				                <tr>
+				                    <td style="border: 1px !important; border-style: solid !important; border-color: #fff !important;">
+				                        <div t-field="doc.name"/>
+				                       	<t t-if="doc.tend_street">
+				                           	<t t-esc="doc.tend_street"/>
+				                        </t><br/>
+				                      	<t t-if="doc.tend_street2">
+				                            <t t-esc="doc.tend_street2"/>
+				                       	</t><br/>
+				                        <t t-if="doc.tend_city">
+				                           	<t t-esc="doc.tend_city"/>
+				                        </t><br/>
+				                    </td>
+				                    <td style="border: 1px !important; border-style: solid !important; border-color: #fff !important;">
+				                        <div t-field="doc.category"/>
+				                    </td>
+				                    <td style="border: 1px !important; border-style: solid !important; border-color: #fff !important;">
+				                        <span t-field="doc.publ_date"/>
+				                    </td>
+				                   	<td style="border: 1px !important; border-style: solid !important; border-color: #fff !important;">
+				                        <strong><span t-field="doc.subm_date"/></strong>
+				                    </td>
+				                    <td style="border: 1px !important; border-style: solid !important; border-color: #fff !important;">
+				                    	<t t-if = "doc.amount">
+				                        	Rs.<span t-field="doc.amount"/>
+				                    	</t>
+				                    	<t t-if = "doc.percentage">
+				                    		<span t-field = "doc.percentage"/>%
+				                    	</t>
+				                    </td>
+				                </tr>
+		                    </tbody>
+		                </table>
+		                <table class="table table-sm">
+						    <thead>
+						        <tr>
+						            <th style="background-color:#4CAF50 !important;color:#FFF !important;">S.N.</th>
+						            <th style="background-color:#4CAF50 !important;color:#FFF !important;">Product Name</th>
+						            <th style="background-color:#4CAF50 !important;color:#FFF !important;" class="text-right">Description</th>
+						            <th style="background-color:#4CAF50 !important;color:#FFF !important;" class="text-right">Quantity</th>
+						            <th style="background-color:#4CAF50 !important;color:#FFF !important;" class="text-right">Unit Price</th>
+						            <th style="background-color:#4CAF50 !important;color:#FFF !important;" class="text-right">Unit Total</th>
+						        </tr>
+						    </thead>
+						    <tbody class="tender_tbody">
+						        <t t-foreach="doc.myprod_id" t-as="l">
+						            <tr t-if="l.qty">
+						                <td>
+						                    <span t-esc="l_index+1"/>
+						                </td>
+						                <td>
+						                    <span t-field="l.prod_id"/>
+						                </td>
+						                <td class="text-right">
+						                    <span t-field="l.specification"/>
+						                </td>
+						                <td class="text-right">
+						                    <span t-field="l.qty"/>
+						                </td>				                            
+						                <td class="text-right">
+						                    <span t-field="l.rate"/>
+						                </td>
+						                <td class="text-right">
+						                    <span t-field="l.total"/>
+						                </td>
+						            </tr>
+						        </t>
+						    </tbody>
+		            	</table>
+		            	<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+		            	<div t-if = "doc.note">
+		            		<span style=" background-color: #4CAF50; color:#fff !important; font:15px lucida-console,sans-serif !important;">
+		            			<strong>Terms &amp; Conditions:</strong>
+		            		</span><br/>
+		                	<span t-field="doc.note" />
+		                </div>
+		                <div class="footer o_clean_footer">
+							<t t-if = "o and 'company_id' in o">
+					 			<t t-set = "company" t-value = "o.company_id"></t>
+							</t>
+							<t t-if = "not o or not 'company_id' in o">
+					 		    <t t-set = "company" t-value = "res_company"></t>
+							</t>
+							<div class="text-left" style="border-top: 2px solid green; color:#4CAF50; font-style:calibri;">
+								<strong><span style = "color:green;font-size: 20px;" t-field = "company.partner_id"/></strong>
+								<span style = "color: #4CAF50" t-field = "company.company_street"/>,
+								<t t-if = "company.company_street2">
+									<span style = "color: #4CAF50" t-field = "company.company_street2"/>,
+								</t>
+								<span style = "color: #4CAF50" t-field = "company.company_city"/>,
+								<span style = "color: #4CAF50" t-field = "company.partner_id.country_id.name"/>
+							</div>
+							<div>
+								<ul class="list-inline mb4">
+					        		<li t-if="company.company_phone" class="list-inline-item"><i class="fa fa-phone" style = "color: #4CAF50;"> <span t-field="company.company_phone"/></i></li>
+					        		<t><li t-if="company.company_email" class="list-inline-item"><i class = "fa fa-envelope" style = "color: #4CAF50;">  <span t-field="company.company_email"/></i></li></t>
+					        		<t><li t-if="company.company_website" class="list-inline-item"><i class = "fa fa-globe" style = "color: #4CAF50;">  <span t-field="company.company_website"/></i></li></t>
+					    		</ul>
+							</div>
+							<div t-field="company.report_footer"/>
+                			<div t-if="report_type == 'pdf'" class = "text-center" style = "color:#4CAF50">
+                    			Page:
+                    			<span class="page"/>
+                    			of
+                    			<span class="topage"/>
+                			</div>
+						</div> 
+					</div>
+					<div class = "oe_structure"/>
+				</t>
+			</t>
+		</t>
+	</template>	
+</odoo>

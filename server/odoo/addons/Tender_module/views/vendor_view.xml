@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data>
+		<!-- FIELD VIEW -->
+		<record id="vendor_tree_view" model="ir.ui.view">
+			<field name="name">List.of.products</field>
+			<field name="model">vendor.product</field>
+			<field name="arch" type="xml">
+				<tree>
+					<field name="prod_name"/>
+					<field name="pro_category"/>
+					<field name="specification"/>
+					<field name="currency_id" invisible="1"/>
+					<field name="pro_price" widget="monetary" options="{'pro_price': 'currency_id'}"/>
+				</tree>
+			</field>
+		</record>
+		<!-- FIELD VIEW -->
+
+
+		<!-- FORM VIEW OF PRODUCTS -->
+		<record id="product_form_view" model="ir.ui.view">
+			<field name="name">Products</field>
+			<field name="model">vendor.product</field>
+			<field name="arch" type="xml">
+				<form>
+					<header>
+						<button name="send_email_template" string="Send e-mail" type="object" class="btn btn-success" groups="Tender_module.group_manager"/>
+					</header>
+					<sheet>
+						<group name="group_top">
+						    <group name="group_left">
+						    	<field name="tend_company_name" string="Product for Tender Company"/>
+						        <field name="prod_name"/>
+						        <field name="vendor_name"/>
+						        <field name="vendor_email" placeholder="examples.123@gmail.com"/>
+						        <field name="pro_category"/>
+						        <field name="specification"/>
+						        <field name="currency_id" groups="base.group_multi_currency"/>
+						        <field name="pro_price" widget="monetary" options="{'pro_price': 'currency_id'}"/>
+						    </group>
+						    <group name="group_right">
+							    <field name="pro_specification" filename="pro_file_name"/>
+								<field name="pro_file_name" invisible="1"/>
+						    </group>
+						</group>
+					</sheet>
+				</form>
+			</field>
+		</record>
+		<!-- FORM VIEW OF PRODUCTS -->
+
+
+        <!-- ACTIONS FOR MENUPOINT -->
+        <record id="vendor_actions_record_form" model="ir.actions.act_window">
+        	<field name="name">Products List</field>
+        	<field name="type">ir.actions.act_window</field>
+        	<field name="res_model">vendor.product</field>
+        	<field name="view_mode">tree,form</field>
+        </record>
+
+		<!-- MENU POINT -->
+		<menuitem id="product_menu_list" parent="tender_menu_record" name="Products" sequence="30"/>
+
+		<!-- ACTION FOR MENUPOINT -->
+		<menuitem action="vendor_actions_record_form" id="product_action_recs" parent="product_menu_list" sequence="30"/>
+
+	</data>
+</odoo>
+
+
+
+		

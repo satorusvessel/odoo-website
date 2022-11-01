@@ -1,0 +1,102 @@
+2022-10-21 15:44:16.167 EAT [15832] ERROR:  could not serialize access due to concurrent update
+2022-10-21 15:44:16.167 EAT [15832] STATEMENT:  UPDATE "bus_presence" SET "last_poll"='2022-10-21 12:44:15',"last_presence"='2022-10-21 12:44:13.868202' WHERE id IN (1)
+2022-10-21 15:47:37.027 EAT [7108] ERROR:  could not serialize access due to concurrent update
+2022-10-21 15:47:37.027 EAT [7108] STATEMENT:  UPDATE "bus_presence" SET "last_poll"='2022-10-21 12:47:37' WHERE id IN (1)
+2022-10-21 15:48:27.395 EAT [11532] ERROR:  could not serialize access due to concurrent update
+2022-10-21 15:48:27.395 EAT [11532] STATEMENT:  UPDATE "bus_presence" SET "last_poll"='2022-10-21 12:48:27' WHERE id IN (1)
+2022-10-21 15:50:07.875 EAT [10524] ERROR:  could not serialize access due to concurrent update
+2022-10-21 15:50:07.875 EAT [10524] STATEMENT:  UPDATE "bus_presence" SET "last_poll"='2022-10-21 12:50:07' WHERE id IN (1)
+2022-10-21 15:50:57.917 EAT [10524] ERROR:  could not serialize access due to concurrent update
+2022-10-21 15:50:57.917 EAT [10524] STATEMENT:  UPDATE "bus_presence" SET "last_poll"='2022-10-21 12:50:57' WHERE id IN (1)
+2022-10-21 15:51:48.301 EAT [11532] ERROR:  could not serialize access due to concurrent update
+2022-10-21 15:51:48.301 EAT [11532] STATEMENT:  UPDATE "bus_presence" SET "last_poll"='2022-10-21 12:51:48' WHERE id IN (1)
+2022-10-21 15:52:38.369 EAT [15832] ERROR:  could not serialize access due to concurrent update
+2022-10-21 15:52:38.369 EAT [15832] STATEMENT:  UPDATE "bus_presence" SET "last_poll"='2022-10-21 12:52:38' WHERE id IN (1)
+2022-10-21 15:54:18.892 EAT [7108] ERROR:  could not serialize access due to concurrent update
+2022-10-21 15:54:18.892 EAT [7108] STATEMENT:  UPDATE "bus_presence" SET "last_poll"='2022-10-21 12:54:18' WHERE id IN (1)
+2022-10-21 15:55:09.290 EAT [7108] ERROR:  could not serialize access due to concurrent update
+2022-10-21 15:55:09.290 EAT [7108] STATEMENT:  UPDATE "bus_presence" SET "last_poll"='2022-10-21 12:55:09' WHERE id IN (1)
+2022-10-21 15:55:59.353 EAT [7108] ERROR:  could not serialize access due to concurrent update
+2022-10-21 15:55:59.353 EAT [7108] STATEMENT:  UPDATE "bus_presence" SET "last_poll"='2022-10-21 12:55:59' WHERE id IN (1)
+2022-10-21 15:56:49.768 EAT [15832] ERROR:  could not serialize access due to concurrent update
+2022-10-21 15:56:49.768 EAT [15832] STATEMENT:  UPDATE "bus_presence" SET "last_poll"='2022-10-21 12:56:49' WHERE id IN (1)
+2022-10-21 15:57:39.835 EAT [10524] ERROR:  could not serialize access due to concurrent update
+2022-10-21 15:57:39.835 EAT [10524] STATEMENT:  UPDATE "bus_presence" SET "last_poll"='2022-10-21 12:57:39' WHERE id IN (1)
+2022-10-21 15:58:30.242 EAT [10524] ERROR:  could not serialize access due to concurrent update
+2022-10-21 15:58:30.242 EAT [10524] STATEMENT:  UPDATE "bus_presence" SET "last_poll"='2022-10-21 12:58:30',"last_presence"='2022-10-21 12:45:56.355551' WHERE id IN (1)
+2022-10-21 15:59:20.320 EAT [7108] ERROR:  could not serialize access due to concurrent update
+2022-10-21 15:59:20.320 EAT [7108] STATEMENT:  UPDATE "bus_presence" SET "last_poll"='2022-10-21 12:59:20' WHERE id IN (1)
+2022-10-21 16:00:10.732 EAT [7108] ERROR:  could not serialize access due to concurrent update
+2022-10-21 16:00:10.732 EAT [7108] STATEMENT:  UPDATE "bus_presence" SET "last_poll"='2022-10-21 13:00:10' WHERE id IN (1)
+2022-10-21 16:01:00.816 EAT [7108] ERROR:  could not serialize access due to concurrent update
+2022-10-21 16:01:00.816 EAT [7108] STATEMENT:  UPDATE "bus_presence" SET "last_poll"='2022-10-21 13:01:00' WHERE id IN (1)
+2022-10-21 16:01:51.245 EAT [10524] ERROR:  could not serialize access due to concurrent update
+2022-10-21 16:01:51.245 EAT [10524] STATEMENT:  UPDATE "bus_presence" SET "last_poll"='2022-10-21 13:01:51' WHERE id IN (1)
+2022-10-21 16:02:41.338 EAT [15832] ERROR:  could not serialize access due to concurrent update
+2022-10-21 16:02:41.338 EAT [15832] STATEMENT:  UPDATE "bus_presence" SET "last_poll"='2022-10-21 13:02:41' WHERE id IN (1)
+2022-10-21 16:03:31.777 EAT [13768] ERROR:  could not serialize access due to concurrent update
+2022-10-21 16:03:31.777 EAT [13768] STATEMENT:  UPDATE "bus_presence" SET "last_poll"='2022-10-21 13:03:31' WHERE id IN (1)
+2022-10-21 16:04:21.851 EAT [13768] ERROR:  could not serialize access due to concurrent update
+2022-10-21 16:04:21.851 EAT [13768] STATEMENT:  UPDATE "bus_presence" SET "last_poll"='2022-10-21 13:04:21' WHERE id IN (1)
+2022-10-21 16:05:12.256 EAT [7108] ERROR:  could not serialize access due to concurrent update
+2022-10-21 16:05:12.256 EAT [7108] STATEMENT:  UPDATE "bus_presence" SET "last_poll"='2022-10-21 13:05:12' WHERE id IN (1)
+2022-10-21 16:06:02.350 EAT [7108] ERROR:  could not serialize access due to concurrent update
+2022-10-21 16:06:02.350 EAT [7108] STATEMENT:  UPDATE "bus_presence" SET "last_poll"='2022-10-21 13:06:02' WHERE id IN (1)
+2022-10-21 16:06:06.719 EAT [10524] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 16:06:06.719 EAT [11532] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 16:06:06.723 EAT [7108] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 16:06:06.724 EAT [15832] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 16:06:06.725 EAT [13768] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 16:06:06.739 EAT [5812] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 16:06:06.741 EAT [13032] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 16:06:06.743 EAT [14492] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 16:12:17.004 EAT [6360] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 16:12:17.008 EAT [13344] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 16:12:17.019 EAT [10776] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 16:12:17.020 EAT [4544] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 16:12:17.025 EAT [1536] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 16:12:17.027 EAT [9528] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 16:12:17.038 EAT [2996] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 16:43:55.540 EAT [772] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 16:43:55.547 EAT [8944] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 16:43:55.554 EAT [15348] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 16:43:55.559 EAT [7108] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 16:43:55.562 EAT [14580] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 16:43:55.563 EAT [14792] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 16:43:55.570 EAT [14920] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 16:50:23.917 EAT [7688] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 16:50:23.920 EAT [15864] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 16:50:23.931 EAT [7800] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 16:50:23.934 EAT [10856] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 16:50:23.945 EAT [16304] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 16:50:23.946 EAT [6096] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-10-21 16:50:23.954 EAT [16064] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
